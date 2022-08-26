@@ -1,0 +1,39 @@
+
+
+.cards {
+
+    height: 40vh;
+    position: absolute;
+    margin-top: 55vh;
+    width: 100%;
+
+    .container {
+        width: 80%;
+        height: 80%;
+        margin: auto;
+        margin-top: 3vh;
+        display: flex;
+
+        .box {
+
+            width: 25%;
+            height: 100%;
+            margin: auto;
+            
+
+            h3 {
+                text-align: center;
+                color: rgb(11, 118, 160);
+            }
+            h4 {
+                font-weight: 300;
+                text-align: left;
+                line-height: 30px;
+            }
+
+            .btn-primary {
+                margin-left: 25vh;
+            }
+        }
+    }
+}

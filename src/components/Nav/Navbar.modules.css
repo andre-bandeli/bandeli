@@ -1,0 +1,198 @@
+
+
+
+.Navbar {
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    z-index: 99999999;
+}
+
+.Navbar nav ul  {
+    width: 90%;
+    margin-top: 30px;
+    display: inline-block;
+    justify-content: space-between;
+}
+.Navbar nav ul li {
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+.Navbar nav ul .in {
+    background-size: cover;
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 0vh;
+    position: absolute;
+    display: inline-block;
+    justify-content: space-between;
+    list-style: none;
+    background-color: yellow;
+}
+.Navbar nav ul .in:hover {
+    border-bottom: none;
+}
+
+.Navbar nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.Navbar a:hover {
+    color: rgba(34, 35, 36, 0.822);
+    border-bottom: 3px solid rgba(26, 129, 160, 0.815);
+    transition: .1s ease-in-out;
+}
+.Navbar .Navigation img {
+    position: absolute;
+    left: 320px;
+    top: 30px;
+    cursor: pointer;
+}
+.Navbar .MobileNavigation {
+    display: none;
+    width: 0%;
+    left: 600px;
+    height: 30px;
+    top: 0;
+    background-color: yellow;
+}
+
+.btn-agendar {
+    display: flex;
+    width: 10%;
+    height: 100%;
+    right: 250px;
+    position: absolute;
+}
+.btn {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(30, 111, 216);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    margin-top: 2vh;
+    display: flex;
+}
+.btn a {
+    margin-top: 1.7vh;
+    margin-left: 1vh;
+    color: white;
+    text-decoration: none;
+}
+
+.btn img {
+    width: 55px;
+    margin: 0;
+}
+
+@media (max-width: 1440px ) {
+    .Navbar nav {
+       margin-top: 15px;
+    }
+    .Navbar nav ul li a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 27px;
+    }
+}
+@media (max-width: 1024px) {
+    .Navbar {
+        top: 0;
+    }
+    .Navbar .Navigation img {
+        left: 50px;
+    }
+    .btn-agendar {
+        display: none;
+    }
+    .Navbar nav ul{
+        width: 50%;
+        margin-left: 350px;
+        margin-top: 30px;
+        
+    }
+}
+@media (max-width: 1010px) {
+    .Navbar {
+        height: 15vh;
+    }
+    .Navbar .Navgation {
+        display: none;
+        visibility: hidden;
+    }
+    .Navbar nav ul{
+        border: none;
+    }
+    .Navbar .Navgation ul li a{
+        visibility: hidden;
+    }
+    .Navbar nav li {
+        visibility: hidden;
+    }
+    .Navbar .MobileNavigation {
+        display: flex;
+        height: 80vh;
+        align-items: center;
+    }
+    .Navbar .MobileNavigation .Hamburguer {
+
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        cursor: pointer;
+    }
+    .Navbar .NavLinks nav ul {
+        height: 10vh;
+    }
+    .Navbar .mob {
+        height: 90vh;
+        width: 100%;
+        top: 10vh;
+        position: fixed;
+        display: inline-block;
+        text-align: left;
+        border-radius: 15px;
+        background-color: rgba(37, 192, 231, 0.938);
+    }
+    .Navbar .mob li{
+        margin: auto;
+        width: 100%;
+        margin-top: 15%;
+        margin-left: 0vh;
+        font-size: 22px;
+        visibility: visible;
+    }
+}
+
+@media (max-width: 768px) {
+    .Navbar {
+        height: 10vh;
+    }
+    .Navbar nav ul{
+        margin-left: 300px;
+        margin-top: 0;
+    }
+    .Navbar .MobileNavigation .Hamburguer {
+
+        top: 20px;
+    }
+
+}
+@media (max-width: 550px) {
+    .Navbar {
+        height: 10vh;
+    }
+    .Navbar nav ul{
+        margin-left: 0;
+    }
+
+}
