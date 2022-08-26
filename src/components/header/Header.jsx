@@ -10,17 +10,19 @@ export default function Header() {
         <div className="container">
            <h2>André <span className='spn-name'>Bandeli</span></h2>
            <Typing>
-              <span>Desenvolvedor Web Jr (Python Java React Bootstrap)</span>
+              <span>Desenvolvedor Web Jr (Python & Java & React & Bootstrap)</span>
               <span> | Técnico Mecatrônico formado pelo Colégio Técnico de Campinas (Cotuca-Unicamp)</span>
               <span> | Graduando em Engenharia pela Unicamp</span>
             </Typing>
             <div className="redes">
               <div className="git">
-                <img src="assets/github.png" alt="" />
+                <a href="https://github.com/andre-bandeli" target="__blank">
+                <img src="assets/github.png" alt="" /></a>
                 <h5>github</h5>
               </div>
               <div className="in">
-                <img src="assets/in.png" alt="" />
+                <a href="https://www.linkedin.com/in/andrébandeli/" target="__blank">
+                <img src="assets/in.png" alt="" /></a>
                 <h5>linkedin</h5>
               </div>
               <div className="whats">

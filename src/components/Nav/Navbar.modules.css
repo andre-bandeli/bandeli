@@ -6,6 +6,7 @@
     height: 10vh;
     position: fixed;
     z-index: 99999999;
+    background-color: rgba(255, 255, 255, 0.767);
 }
 
 .Navbar nav ul  {
@@ -25,13 +26,16 @@
 .Navbar nav ul .in {
     background-size: cover;
     width: 40px;
-    margin-top: 20px;
     margin-left: 0vh;
     position: absolute;
     display: inline-block;
     justify-content: space-between;
     list-style: none;
     background-color: yellow;
+}
+.Navbar nav ul .in img {
+    margin-left: -35vh;
+    margin-top: -2vh;
 }
 .Navbar nav ul .in:hover {
     border-bottom: none;
