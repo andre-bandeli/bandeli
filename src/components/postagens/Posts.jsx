@@ -4,7 +4,7 @@ import './posts.scss'
 export default function Posts() {
   return (
     <div className='posts'>
-        <h2>Últimos Posts</h2>
+        <h2>Cursos Realizados</h2>
 
         <div className="container">
 
@@ -14,7 +14,7 @@ export default function Posts() {
             </div>
             <div className="titulo">
               <a href="">
-              <h1>Principais comandos no git</h1>
+              <h1>Java 2021 completo: do zero ao proﬁssional + projetos</h1>
                 <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quis voluptatem ratione laborum facilis aliquam voluptas cum minima eius inventore at [...]</h2>
                 </a>
             </div>
@@ -24,19 +24,20 @@ export default function Posts() {
 
             <div className="post">
               <a href="">
-              <h1>Trabalhando com testes unitários em Java</h1>
-              <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit, odio praesentium [...]</h2>
+              <h1>Desenvolvimento avançado de aplicações corporativas com Django + Projetos (2021)</h1>
               </a>
             </div>
             <div className="post">
-              <h1>Trabalhando com testes unitários em Java</h1>
-              <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit, odio praesentium [...]</h2>
+              <h1>Docker para Desenvolvedores (com Docker Swarm e Kubernetes)</h1>
             </div>
             <div className="post">
-              <h1>Trabalhando com testes unitários em Java</h1>
-              <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit, odio praesentium [...]</h2>
+              <h1>Java e Orientação a Objetos (2021)</h1>
+            </div>
+            <div className="post">
+              <h1>Microservices com Spring Cloud, Spring Boot e Docker (2021)</h1>
             </div>
 
+          
           </div>
         </div>
     </div>

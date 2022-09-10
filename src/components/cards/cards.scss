@@ -2,14 +2,14 @@
 
 .cards {
 
-    height: 40vh;
+    height: 50vh;
     position: absolute;
     margin-top: 55vh;
     width: 100%;
 
     .container {
         width: 80%;
-        height: 80%;
+        height: 90%;
         margin: auto;
         margin-top: 3vh;
         display: flex;
@@ -17,30 +17,34 @@
         .box {
 
             width: 25%;
-            height: 100%;
+            height: 40vh;
             margin: auto;
+            display: inline-block;
             
-
-            h3 {
-                text-align: center;
-                color: rgb(11, 118, 160);
-            }
-            h4 {
-                font-weight: 300;
-                text-align: left;
-                line-height: 30px;
-
-                a {
-                    color: black;
-                    text-decoration: none;
+            .txt {
+                height: 35vh;
+                h3 {
+                    text-align: center;
+                    color: rgb(11, 118, 160);
                 }
-            }
-
-            h4:hover {
-
-                a {
-                    text-decoration: underline;
+                h4 {
+                    font-weight: 300;
+                    text-align: left;
+                    line-height: 30px;
+    
+                    a {
+                        color: black;
+                        text-decoration: none;
+                    }
                 }
+    
+                h4:hover {
+    
+                    a {
+                        text-decoration: underline;
+                    }
+                }
+
             }
 
             .btn-primary {
