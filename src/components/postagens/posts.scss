@@ -17,11 +17,79 @@
         width: 80%;
         height: 60vh;
         margin: auto;
-        background-color: black;
+        margin-top: 10vh;
         display: flex;
 
         .col-sm-6 {
             width: 50%;
+            height: 100%;
+            display: inline-block;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            .imagem {
+                height: 70%;
+                margin-top: 2vh;
+                background-color: rgba(47, 209, 74, 0.76);
+                border-radius: 10px;
+            }
+            .titulo {
+                height: 30%;
+                
+                h1 {
+                    font-size: 25px;
+                    text-align: left;
+                }
+                h2 {
+
+                    font-weight: 400;
+                    font-size: 23px;
+                    text-align: left;
+                }
+                h2:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        .col-sm-4 {
+            width: 50%;
+            height: 100%;
+            display: inline-block;
+
+            .post {
+                width: 80%;
+                margin: auto;
+                background-color: rgba(255, 255, 0, 0.788);
+                height: 30%;
+                margin-top: 1.5vh;
+
+                h1 {
+                    font-size: 25px;
+                    text-align: left;
+                    position: absolute;
+                    margin-top: 4%;
+                    margin-left: 2vh;
+                }
+                h2 {
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin-top: 6%;
+                    margin-left: 2vh;
+                    text-align: left;
+                    position: absolute;
+                    width: 30%;
+                }
+                h2:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+                a {
+                    color: black;
+                }
+            }
         }
     }
 }

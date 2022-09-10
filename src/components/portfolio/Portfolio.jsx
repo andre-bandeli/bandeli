@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-grid';
 
 export default function Portfolio() {
   return (
-    <div className='portfolio'>
+    <div id='portfolio'>
         <h2>Projetos</h2>
 
         <div className="container">
@@ -19,37 +19,37 @@ export default function Portfolio() {
             <div className="box-abs">
                     
                     </div>
+                <img src="assets/odonto-clean.png" alt="" />
+            </div>
+            <div className="box">
+            <div className="box-abs">
+                    
+                    </div>
+                <img src="assets/projeto-1.png" alt="" />
+            </div>
+            <div className="box">
+            <div className="box-abs">
+                    
+                    </div>
+                <img src="assets/projeto-2.png" alt="" />
+            </div>
+            <div className="box">
+            <div className="box-abs">
+                    
+                    </div>
+                <img src="assets/webrest.png" alt="" />
+            </div>
+            <div className="box">
+            <div className="box-abs">
+                    
+                    </div>
                 <img src="assets/p2.png" alt="" />
             </div>
             <div className="box">
             <div className="box-abs">
                     
                     </div>
-                <img src="assets/p3.png" alt="" />
-            </div>
-            <div className="box">
-            <div className="box-abs">
-                    
-                    </div>
-                <img src="assets/p4.png" alt="" />
-            </div>
-            <div className="box">
-            <div className="box-abs">
-                    
-                    </div>
-                <img src="assets/p1.png" alt="" />
-            </div>
-            <div className="box">
-            <div className="box-abs">
-                    
-                    </div>
-                <img src="assets/p2.png" alt="" />
-            </div>
-            <div className="box">
-            <div className="box-abs">
-                    
-                    </div>
-                <img src="assets/p3.png" alt="" />
+                <img src="assets/gym.png" alt="" />
             </div>
             <div className="box">
             <div className="box-abs">

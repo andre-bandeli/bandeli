@@ -13,7 +13,7 @@ const NavLinks = () => {
                 </a>
             </li>
             <li>
-                <a href="/#skilss"> Jobs</a>
+                <a href="/#portfolio"> Jobs</a>
             </li>
             <li>
                 <a href="/#contact"> Blog</a>
