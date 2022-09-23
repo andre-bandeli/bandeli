@@ -68,3 +68,52 @@
         
     }
 }
+
+
+@media (max-width: 1440px) {
+    
+#portfolio {
+
+    margin-top: 130vh;
+    .container {
+        margin-top: 10vh;
+
+        .box {
+            width: 33.3%;
+        }
+    
+    }
+}
+}
+
+@media (max-width: 1024px) {
+    
+    #portfolio {
+    
+        margin-top: 150vh;
+
+        .container {
+
+            .box {
+                width: 50%;
+            }
+        }
+
+    }
+}
+@media (max-width: 768px) {
+    
+        #portfolio {
+        
+            margin-top: 170vh;
+
+            .container {
+                display: inline-block;
+
+                .box {
+                    width: 100%;
+                }
+            }
+    
+        }
+        }

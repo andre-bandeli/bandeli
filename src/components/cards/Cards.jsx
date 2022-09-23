@@ -9,27 +9,21 @@ export default function Cards() {
             <div className="box">
             <div className="txt">
                 <h3>Sobre</h3>
-                <h4> <a href=""> Sou Formado em Mecatrônica (2017) pelo Colégio Técnico de Campinas (Cotuca/Unicamp) onde realizei também meu Ensino Médio (2016) e onde me habilitei, também, 
-                como Assistênte de Projetos e Processos Industriais Mecânicos (2017). Atualmente realizo a Graduação pela Universidade Estadual de Campinas (Unicamp)  [...]</a></h4>
+                <h4> Natural de Conchal, São Paulo, me mudei aos 16 anos, em 2014, para Campinas/SP. Me formei como Técnico em Mecatrônica pelo Colégio Técnico de Campinas (Cotuca - Unicamp), onde realizei 
+                    também meu ensino médio e onde me habilitei, também, como Assistente de Projetos e Processos Industriais Mecânicos</h4>
+                <h4>Trabalhando desde os 13 anos, iniciei minha carreira como mecânico de motos, ainda em Conchal. Atuei no setor recreativo durante 3 anos; TIve uma atuação como técnico de manutenção industrial durante 4 anos e meio e, atualmente, com desenvolvimento de software.</h4>
                 </div>
-                    <button className='btn-primary'>ver mais</button>
+
             </div>
             <div className="box">
             <div className="txt">
-                <h3>Experiência</h3>
-                <h4> <a href="">Desenvolvo junto ao time de Comunicõo e Desenvolvimento da Diretoria Geral de RH da Unicamp, através do programa de Permanência Estudantil. Atuei também no aplicativo
-                AGHUse, uma aplicação Web, desenvolvida em Java EE para Gestão Hospitalar dos Hospitais Universitários Federativos.[...]</a></h4>
+                <h3>Experiência com Desenvolvimento Web</h3>
+                <h4>Atualmente desenvolvo junto ao time de Comunicão da Diretoria Geral de RH da Unicamp, através do programa de Permanência Estudantil, com a utilização de Wordpress
+                    , Bootstrap, MySQL, Docker entre outras stacks. O time de Comunicação da DGRH atua com todos os processos de Comunicação Institucional (criação de sites, designer UI/UX, notas/notícias)</h4> 
+                <h4>Atuei também no aplicativo AGHUse, uma aplicação Web, desenvolvida em Java EE para Gestão Hospitalar dos Hospitais Universitários Federativos, realizando
+                    tasks para o módulo de exames. Nessa squad, tive o contato com PostgreSQL, JUnit, Mocks.
+                </h4>
                 </div>
-                    <button className='btn-primary'>ver mais</button>
-            </div>
-            <div className="box">
-                <div className="txt">
-                <h3>Transição de Carreira</h3>
-                <h4> <a href=""> Trabalho desde meus 13 anos, tendo percorrido pelas áreas da meĉanica, em setor recreativo, setor industrial e desenvolvimento de software.
-                    No final de 2020, período onte atuava como técnico de manutenção, ao tentar propor uma solução para a área de PCM, me depaperei com os estudos de desenvolvimento web, área pela qual me apaixonei[...] </a></h4>
-                </div>
-               
-                <button className='btn-primary'>ver mais</button>
             </div>
         </div>
 

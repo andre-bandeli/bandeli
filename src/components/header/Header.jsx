@@ -8,29 +8,26 @@ export default function Header() {
   return (
     <div className='header'>
         <div className="container">
-           <h2>André <span className='spn-name'>Bandeli</span></h2>
+           <span className='spn-name'> <h2>André Bandeli</h2></span>
            <Typing>
-              <span>Desenvolvedor Web Jr (Python & Java & React & Bootstrap)</span>
-              <span> | Técnico Mecatrônico formado pelo Colégio Técnico de Campinas (Cotuca-Unicamp)</span>
-              <span> | Graduando em Engenharia pela Unicamp</span>
+            <h3>
+              Desenvolvedor Web Jr (Python & Java & React & Bootstrap)
+              | Técnico Mecatrônico formado pelo Colégio Técnico de Campinas (Cotuca-Unicamp) 
+              | Graduando em Engenharia pela Unicamp
+              </h3>
             </Typing>
+            
             <div className="redes">
-              <div className="git">
+           
                 <a href="https://github.com/andre-bandeli" target="__blank">
                 <img src="assets/github.png" alt="" /></a>
-                <h5>github</h5>
-              </div>
-              <div className="in">
+             
                 <a href="https://www.linkedin.com/in/andrébandeli/" target="__blank">
                 <img src="assets/in.png" alt="" /></a>
-                <h5>linkedin</h5>
-              </div>
-              <div className="whats">
-                <img src="assets/whatsapp.png" alt="" />
-                <h5>whatsapp</h5>
-              </div>
             
-             
+              <a href="https://docs.google.com/document/d/17_-TUlpGmIZVxACdjMY06yXaAY5fXJIjoA_jjm53pyg/edit?usp=sharing" target="__blank">
+                <img src="assets/cv.png" alt="" /></a>
+      
             </div>
         </div>
     </div>

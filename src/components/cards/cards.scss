@@ -4,11 +4,11 @@
 
     height: 50vh;
     position: absolute;
-    margin-top: 55vh;
+    margin-top: 50vh;
     width: 100%;
 
     .container {
-        width: 80%;
+        width: 90%;
         height: 90%;
         margin: auto;
         margin-top: 3vh;
@@ -16,13 +16,14 @@
 
         .box {
 
-            width: 25%;
+            width: 45%;
             height: 40vh;
             margin: auto;
             display: inline-block;
             
             .txt {
                 height: 35vh;
+
                 h3 {
                     text-align: center;
                     color: rgb(11, 118, 160);
@@ -31,6 +32,7 @@
                     font-weight: 300;
                     text-align: left;
                     line-height: 30px;
+                    margin-top: 4VH;
     
                     a {
                         color: black;
@@ -60,3 +62,93 @@
         }
     }
 }
+@media (max-width: 1440px) {
+    
+    .cards {
+    
+        .container {
+            width: 100%;
+            height: auto;
+            display: inline-block;
+    
+            .box {
+                width: 80%;
+                height: auto;
+    
+                .txt {
+                    height: auto;
+
+                    h3 {
+                    
+                        font-size: 35px;
+                    }
+                    h4 {
+                       font-size: 28px;
+                       line-height: 45px;
+        
+                        a {
+                            color: black;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    }
+
+@media (max-width: 768px) {
+    
+.cards {
+    height: auto;
+
+    .container {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+
+        .box {
+            width: 80%;
+            height: auto;
+
+            .txt {
+                height: auto;
+            }
+        }
+    }
+}
+
+}
+
+@media (max-width: 550px) {
+    
+    .cards {
+        height: auto;
+        margin-top: 120vh;
+    
+        .container {
+            width: 100%;
+            height: auto;
+            display: inline-block;
+    
+            .box {
+                width: 80%;
+                height: auto;
+    
+                .txt {
+                    height: auto;
+
+                    h3 {
+                    
+                        font-size: 30px;
+                    }
+                    h4 {
+                       font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+    
+    }

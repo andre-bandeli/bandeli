@@ -7,16 +7,12 @@ const NavLinks = () => {
             <li>
                 <a href="/#about"> Sobre</a>
             </li>
+            
             <li>
-                <a href="/#contact" className="in">
-                <img src="assets/whatsapp.png" width="30px"  alt="entre em contato" />
-                </a>
+                <a href="/#portfolio"> Projetos</a>
             </li>
             <li>
-                <a href="/#portfolio"> Jobs</a>
-            </li>
-            <li>
-                <a href="/#contact"> Blog</a>
+                <a href="/#contact"> Cursos</a>
             </li>
             
         </ul>
