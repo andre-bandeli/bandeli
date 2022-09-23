@@ -1,6 +1,7 @@
 
 import './App.css';
 import Cards from './components/cards/Cards';
+import Contato from './components/contato/Contato';
 import Ferramentas from './components/ferramentas/Ferramentas';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
@@ -17,6 +18,7 @@ function App() {
       <Cards/>
       <Posts/>
       <Ferramentas/>
+      <Contato/>
       <Footer/>
     </div>
   );

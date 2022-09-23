@@ -7,14 +7,15 @@ export default function Footer() {
 
         <div className="container">
         
-            <div className="col-3">
+        <div className="col-3">
 
-                <img src="assets/github.png" alt="" />
-                <img src="assets/linkedin.png" alt="" />
-                <img src="assets/whatsapp.png" alt="" />
-
-
-            </div>
+          <img src="assets/github.png" alt="" />
+          <img src="assets/linkedin.png" alt="" />
+          <img src="assets/whatsapp.png" alt="" />
+        </div>
+        <div className="col-9">
+          <h3>Copyright 2022, André Bandeli</h3>
+        </div>
             
         </div>
 

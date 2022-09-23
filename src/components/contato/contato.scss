@@ -1,0 +1,110 @@
+
+#contato {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    position: relative;
+    margin-top: 75vh;
+
+    .container {
+        width: 50%;
+        height: 100%;
+        color: rgb(0, 0, 0);
+        margin-top: 2.5vh;
+        
+
+        h2 {
+            margin-top: 10vh;
+            font-size: 1.5vw;
+            font-weight: bold;
+            
+        }
+        h4 {
+            margin-top: 17vh;
+            letter-spacing: 1vh;
+            font-weight: 100;
+            margin-left: 15vh;
+        }
+        h5 {
+            font-size: 18px;
+            font-weight: 100;
+            letter-spacing: .5vh;
+        }
+
+        img {
+
+            width: 50px;
+        }
+
+        .box-contato {
+            width: 30%;
+            margin: auto;
+            margin-top: 5vh;
+            justify-content: space-between;
+            cursor: pointer;
+
+            display: flex;
+            .col-3-red {
+                width: 10%;
+                height: 5vh;
+    
+            }
+
+        }
+        
+    }
+}
+
+@media (max-width: 1024px) {
+    #contato {
+
+        .container {
+            
+            h2 {
+                font-size: 3vw;
+            }
+            h4 {
+                width: 80%;
+                margin: auto;
+                margin-top: 5vh;
+                font-size: 2vw;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    #contato {
+        margin-top: 80vh;
+        
+    }
+}
+@media (max-width: 650px) {
+    #contato {
+        display: inline-block;
+        margin-top: 75vh;
+        width: 100%;
+
+        .container {
+            margin: auto;
+            width: 90%;
+            height: 50%;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    #contato {
+
+        margin-top: 85vh;
+
+        .container {
+            margin: auto;
+            width: 90%;
+            height: 50%;
+
+            h4 {
+               font-size: 18px;
+            }
+        }
+    }
+}
