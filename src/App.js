@@ -11,13 +11,13 @@ import Posts from './components/postagens/Posts';
 function App() {
   return (
     <div className="App">
-      <Navbar/>,
+      <Navbar/>
       <Header/>
+      <Portfolio/>
       <Cards/>
-      {/* <Portfolio/>
       <Posts/>
       <Ferramentas/>
-      <Footer/> */}
+      <Footer/>
     </div>
   );
 }

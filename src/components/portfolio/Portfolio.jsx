@@ -6,6 +6,7 @@ export default function Portfolio() {
   return (
     <div id='portfolio'>
         <h2>Projetos</h2>
+        <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus veritatis porro corrupti impedit eum, consequuntur animi neque delectus harum soluta. Deserunt possimus aperiam architecto mollitia ducimus sint iure fuga quas?</h3>
 
         <div className="container">
 

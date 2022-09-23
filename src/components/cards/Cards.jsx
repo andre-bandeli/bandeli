@@ -9,9 +9,10 @@ export default function Cards() {
             <div className="box">
             <div className="txt">
                 <h3>Sobre</h3>
-                <h4> Natural de Conchal, São Paulo, me mudei aos 16 anos, em 2014, para Campinas/SP. Me formei como Técnico em Mecatrônica pelo Colégio Técnico de Campinas (Cotuca - Unicamp), onde realizei 
-                    também meu ensino médio e onde me habilitei, também, como Assistente de Projetos e Processos Industriais Mecânicos</h4>
-                <h4>Trabalhando desde os 13 anos, iniciei minha carreira como mecânico de motos, ainda em Conchal. Atuei no setor recreativo durante 3 anos; TIve uma atuação como técnico de manutenção industrial durante 4 anos e meio e, atualmente, com desenvolvimento de software.</h4>
+                <h4> Natural de Conchal, São Paulo, me mudei aos 16 anos (em 2014) para Campinas/SP. Me formei como Técnico em Mecatrônico e Assistente de Projetos e Processos Industriais Mecânicos pelo Colégio Técnico de Campinas (Cotuca - Unicamp), onde realizei 
+                    também meu ensino médio.</h4>
+                <h4>Trabalhando desde os 13 anos, iniciei em 2012 como mecânico de motos. Em 2014 atuei no setor recreativo durante 3 anos; Em 2017, iniciei como técnico de manutenção industrial durante 4 anos e meio e, atualmente, 
+                    com desenvolvimento de software.</h4>
                 </div>
 
             </div>
@@ -25,6 +26,10 @@ export default function Cards() {
                 </h4>
                 </div>
             </div>
+
+            <button className='btn-secundary'>
+                baixar currículo
+            </button>
         </div>
 
     </div>

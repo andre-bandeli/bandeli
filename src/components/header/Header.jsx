@@ -11,9 +11,9 @@ export default function Header() {
            <span className='spn-name'> <h2>André Bandeli</h2></span>
            <Typing>
             <h3>
-              Desenvolvedor Web Jr (Python & Java & React & Bootstrap)
-              | Técnico Mecatrônico formado pelo Colégio Técnico de Campinas (Cotuca-Unicamp) 
-              | Graduando em Engenharia pela Unicamp
+                Desenvolvedor Web Jr 
+                <br></br> Técnico Mecatrônico formado pelo Colégio Técnico de Campinas (Cotuca-Unicamp) 
+                <br></br> Realizando a Graduação em Engenharia pela Unicamp
               </h3>
             </Typing>
             
@@ -29,7 +29,14 @@ export default function Header() {
                 <img src="assets/cv.png" alt="" /></a>
       
             </div>
+
+            <a href="">
+              <button className='btn-projects'>
+                    ver projetos
+              </button>
+            </a>
         </div>
+        
     </div>
   )
 }
