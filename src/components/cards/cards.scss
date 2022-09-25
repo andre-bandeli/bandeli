@@ -68,12 +68,14 @@
         .container {
             
              .box {
-                
+                margin-top: 25vh;
+                height: auto;
     
              }
              .btn-secundary {
-    
-                margin-top: 25vh;
+                width: 40%;
+                margin-left: 30%;
+                margin-top: 30vh;
             }
          }
      }
@@ -85,13 +87,15 @@
      .container {
 
         .box {
-            margin-top: 10vh;
+            margin-top: 25vh;
+            height: auto;
         }
  
 
         .btn-secundary {
-            width: 50%;
-            margin-left: 30vh; margin-top: 35vh;
+            width: 40%;
+            margin-left: 30%;
+            margin-top: 35vh;
         }
      }
  }
@@ -141,6 +145,31 @@
          }
      }
  }
+
+ @media (max-width: 550px) {
+    
+    .cards {
+     
+   
+        .container {
+         
+
+            .box {
+                .txt {
+                    height: 35vh;
+    
+                    h3 {
+                      font-size: 1.5rem;
+                    }
+                }
+            }
+           
+
+            
+         
+        }
+    }
+}
 
 
 // @media (max-width: 400px) {

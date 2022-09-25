@@ -30,11 +30,14 @@ export default function Header() {
       
             </div>
 
-            <a href="">
-              <button className='btn-projects'>
-                    ver projetos
-              </button>
-            </a>
+              <div className="btn">
+                  <a href="">
+                    <button className='btn-projects'>
+                          ver projetos
+                    </button>
+                  </a>
+              </div>
+
         </div>
         
     </div>

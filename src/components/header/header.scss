@@ -76,16 +76,24 @@
             }
         }
 
-        .btn-projects {
-            border: none;
-            background-color: rgba(25, 156, 231, 0.719);
-            color: white;
-            border-radius: 10px;
-            width: 10%;
-            height: 40px;
-            margin-left: -75%; margin-top: 5vh;
-            cursor: pointer;
+        .btn {
+
+            width: 100%;
+            background-color: transparent;
+
+            .btn-projects {
+                border: none;
+                background-color: rgba(25, 156, 231, 0.719);
+                color: white;
+                border-radius: 10px;
+                margin-top: 0vh; margin-left: 12vh;
+                width: 150px;
+                height: 40px;
+                cursor: pointer;
+            }
+
         }
+        
 
     
     }
@@ -121,11 +129,14 @@
     
     
             }
-            .btn-projects {
-                width: 20%;
-                margin-left: -35vh;
-                
+            .btn {
+                .btn-projects {
+                    margin-left: 10vh;
+                  
+                    
+                }
             }
+           
         }
     }
     
@@ -164,8 +175,11 @@
 
             margin-left: 5vh;
             width: 20%;
-
-
+        }
+        .btn {
+            .btn-projects {
+                margin-left: 5vh;
+            }
         }
     }
 }
@@ -203,10 +217,37 @@
                 width: 40%;
             }
 
-            .btn-projects {
-                margin-left: -20vh;
-                width: 40%;
+            .btn {
+                .btn-projects {
+                    margin-left: 2vh;
+                }
             }
+        }
+    } 
+}
+
+@media (max-width: 280px) {
+    
+    .header {
+       
+       
+        .container {
+           
+            .spn-name {
+    
+                h2 {
+                margin-top: 0vh;
+                }
+              
+            }
+            h3 {
+                width: 80%;
+                font-size: .9rem;
+                line-height: 25px;
+    
+            }
+    
+    
         }
     } 
 }
