@@ -43,7 +43,6 @@
 .Navbar .Navigation img {
     position: absolute;
     left: 320px;
-    top: 30px;
     cursor: pointer;
 }
 .Navbar .MobileNavigation {
@@ -54,7 +53,6 @@
     top: 0;
     background-color: yellow;
 }
-
 .btn-agendar {
     display: flex;
     width: 10%;
