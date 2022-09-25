@@ -1,6 +1,7 @@
 
 #contato {
-    width: 100%;
+    width: 80%;
+    margin: auto;
     height: 40vh;
     display: flex;
     position: relative;
@@ -12,12 +13,37 @@
         color: rgb(0, 0, 0);
         margin-top: 2.5vh;
         
-
-        h2 {
+        h1 {
+            text-align: left;
+            margin-left: 15vh;
             margin-top: 10vh;
-            font-size: 1.5vw;
-            font-weight: bold;
+        }
+        h2 {
+            width: 100%;
+            margin-top: 5vh;
+            font-size: 1em;
+            font-weight: 100;
+            text-align: left;
+            margin-left: 15vh;
             
+        }
+        h3 {
+            width: 100%;
+            margin-top: 2vh;
+            font-size: 1em;
+            font-weight: 100;
+            text-align: left;
+            margin-left: 15vh;
+            
+        }
+        a {
+            width: 100%;
+            color: rgba(0, 0, 0, 0.781);
+            font-weight: bold;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
         h4 {
             margin-top: 17vh;
@@ -34,6 +60,17 @@
         img {
 
             width: 50px;
+        }
+
+        .foto {
+            width: 250px;
+            height: 250px;
+            background-color: black;
+            background-image: url(./in.png);
+            background-size: cover;
+            margin: auto;
+            margin-top: 5%;
+            border-radius: 50%;
         }
 
         .box-contato {

@@ -3,6 +3,7 @@ import './header.scss'
 
 import Typing from 'react-typing-animation';
 
+
 export default function Header() {
   
   return (
@@ -31,6 +32,7 @@ export default function Header() {
       
             </div>
 
+          
               <div className="btn">
                   <a href="">
                     <button className='btn-projects'>

@@ -20,24 +20,18 @@ export default function Contato() {
     <div id='contato'>
           <div className="container">
           
-              <h4>Barão Geraldo, Campinas, São Paulo</h4>
+          <h1>Contato</h1>
+          <h2>Mande uma mensagem através do linkedin: <a href="https://www.linkedin.com/in/andrebandeli/">https://www.linkedin.com/in/andrebandeli/</a></h2>
+          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illo eum. Quis facere, modi voluptatem inventore magni ullam, explicabo sit a, vel repellat officiis perferendis autem! Ipsam provident voluptates magnam!</h3>
              
       
             
           </div>
           <div className="container">
-                  <LoadScript
-                      googleMapsApiKey="AIzaSyAT62NzSfccBJZg1brAX-McZY6oUcAJvmw"
-                    >
-              <GoogleMap
-                      mapContainerStyle={containerStyle}
-                      center={center}
-                      zoom={14}
-              >
-                { /* Child components, such as markers, info windows, etc. */ }
-                <></>
-              </GoogleMap>
-            </LoadScript>
+                
+                <div className="foto">
+
+                </div>
           </div>
     </div>
   )
