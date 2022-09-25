@@ -3,7 +3,7 @@ import './ferramentas.scss'
 
 export default function Ferramentas() {
   return (
-    <div className='ferramentas'>
+    <div id='ferramentas'>
 
         <h2>Stacks de Atuação</h2>
 

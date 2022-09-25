@@ -17,7 +17,7 @@ export default function Posts() {
 
 
   return (
-    <div className='posts'>
+    <div id='posts'>
         <h2>Cursos e Certificações</h2>
 
         <div className="container">

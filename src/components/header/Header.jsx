@@ -34,7 +34,7 @@ export default function Header() {
 
           
               <div className="btn">
-                  <a href="">
+                  <a href="/#portfolio">
                     <button className='btn-projects'>
                           ver projetos
                     </button>

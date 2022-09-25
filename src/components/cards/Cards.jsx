@@ -3,7 +3,7 @@ import './cards.scss'
 
 export default function Cards() {
   return (
-    <div className='cards'>
+    <div id='cards'>
 
         <div className="container">
             <div className="box">
@@ -27,8 +27,10 @@ export default function Cards() {
                 </div>
             </div>
 
-            <button className='btn-secundary'>
-                baixar currículo
+            <button className='btn-secundary'> <a href="assets/cv.pdf" download>
+            baixar currículo
+            </a>
+            
             </button>
         </div>
 

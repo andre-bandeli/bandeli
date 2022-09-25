@@ -1,6 +1,6 @@
 
 
-.cards {
+#cards {
 
     height: auto;
     margin-top: 10vh;
@@ -50,11 +50,20 @@
             cursor: pointer;
             border-radius: 15px;
             border: 2px solid rgba(255, 0, 0, 0.514);
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
         }
         .btn-secundary:hover {
             background-color: rgba(255, 0, 0, 0.514);
             border: none;
             transition: .4s ease-in-out;
+
+            a {
+                text-decoration: underline;
+            }
         }
     }
 }
@@ -63,7 +72,7 @@
 
  @media (max-width: 1440px) {
     
-     .cards {
+     #cards {
      
         .container {
             
@@ -82,7 +91,7 @@
 }
  @media (max-width: 1024px) {
     
- .cards {
+ #cards {
 
      .container {
 
@@ -103,7 +112,7 @@
 
 @media (max-width: 768px) {
     
-     .cards {
+     #cards {
         height: 160vh;
          .container {
             margin: auto;
@@ -128,7 +137,7 @@
 
 @media (max-width: 550px) {
     
-     .cards {
+     #cards {
         height: auto;
     
          .container {
@@ -148,7 +157,7 @@
 
  @media (max-width: 550px) {
     
-    .cards {
+    #cards {
      
    
         .container {
