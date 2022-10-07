@@ -7,7 +7,7 @@ import Typing from 'react-typing-animation';
 export default function Header() {
   
   return (
-    <div className='header'>
+    <div className='header' id='header'>
     
         <div className="container">
            <span className='spn-name'> <h2>André Bandeli</h2></span>
