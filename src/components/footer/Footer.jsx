@@ -9,8 +9,10 @@ export default function Footer() {
         
         <div className="col-3">
 
-          <img src="assets/git-ft.png" alt="" />
-          <img src="assets/in-ft.png" alt="" />
+          <a href="https://github.com/andre-bandeli" target="__blank">
+          <img src="assets/git-ft.png" alt="github" /></a>
+          <a href="https://www.linkedin.com/in/andrebandeli/" target="__blank">
+          <img src="assets/in-ft.png" alt="linkedin" /></a>
           <img src="assets/whatsapp.png" alt="" />
         </div>
         <div className="col-9">

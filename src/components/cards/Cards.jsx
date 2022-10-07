@@ -27,11 +27,10 @@ export default function Cards() {
                 </div>
             </div>
 
-            <button className='btn-secundary'> <a href="assets/cv.pdf" download>
-            baixar currículo
+            <a href="assets/cv.pdf" download>
+            <button className='btn-secundary'>
+            baixar currículo</button>
             </a>
-            
-            </button>
         </div>
 
     </div>

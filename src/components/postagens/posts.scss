@@ -27,6 +27,7 @@
             border: 1px solid rgba(0, 0, 0, 0.171);
             box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
             background-color: rgba(28, 207, 28, 0.466);
+            background-color: rgba(27, 166, 201, 0.452);
             border-radius: 10px;
             margin: auto;
             margin-bottom: 5vh;
@@ -97,6 +98,10 @@
 
            
         
+        }
+
+        .box:hover {
+            box-shadow: rgba(0, 0, 0, 0.425) 0px 3px 6px, rgba(8, 116, 218, 0.541) 0px 3px 6px;
         }
 
     }

@@ -42,7 +42,10 @@
             }
 
         }
-        .btn-secundary {
+        a {
+
+            text-decoration: none;
+            color: black;
             width: 45%;
             margin-top: 5%;
             margin-left: 45vh;
@@ -51,18 +54,21 @@
             border-radius: 15px;
             border: 2px solid rgba(255, 0, 0, 0.514);
 
-            a {
-                text-decoration: none;
-                color: black;
+            .btn-secundary {
+               border: none;
+               margin-top: 1vh;
+
             }
         }
-        .btn-secundary:hover {
+        a:hover {
             background-color: rgba(255, 0, 0, 0.514);
-            border: none;
             transition: .4s ease-in-out;
+            .btn-secundary {
+               background-color: transparent;
+               border: none;
+               margin-top: 1vh;
 
-            a {
-                text-decoration: underline;
+    
             }
         }
     }
@@ -81,11 +87,16 @@
                 height: auto;
     
              }
-             .btn-secundary {
+
+             a {
                 width: 40%;
-                margin-left: 30%;
-                margin-top: 30vh;
-            }
+                    margin-left: 30%;
+                    margin-top: 30vh;
+                .btn-secundary {
+                    margin-top: 1.5vh;
+                }
+             }
+             
          }
      }
 }
@@ -100,11 +111,13 @@
             height: auto;
         }
  
-
-        .btn-secundary {
+        a {
             width: 40%;
             margin-left: 30%;
             margin-top: 35vh;
+            .btn-secundary {
+               margin-left: auto;margin-top: 1.5vh;
+            }
         }
      }
  }
@@ -126,10 +139,18 @@
                 margin-top: 5vh;
              }
 
-             .btn-secundary {
+             a {
                 width: 80%;
                 margin-left: 0vh; margin-top: 15vh;
-            }
+
+                .btn-secundary {
+                   margin-top: 7vh;
+                   border: none;
+                   background-color: transparent;
+                }
+             }
+
+           
           
          }
      }

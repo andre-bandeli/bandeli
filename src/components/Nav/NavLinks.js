@@ -1,31 +1,23 @@
 const NavLinks = () => {
     return (  
+        
         <ul>
-           
-            <img src="assets/logo.png" alt="" />
-
+            <img src="assets/logo-name.png"></img>
             <li>
-                <a href="/" > Home</a>
+                <a href="/"> Home</a>
             </li>
             <li>
-                <a href="/#portfolio"> Projetos</a>
+                <a href="/#about"> Sobre</a>
             </li>
             <li>
-                <a href="/#cards"> Sobre</a>
+                <a href="/#skilss"> Profissionais</a>
             </li>
-            
             <li>
-                <a href="/#posts"> Cursos</a>
+                <a href="/#contact"> Tratamentos</a>
             </li>
-
             <li>
-                <a href="/#ferramentas"> Stacks</a>
+                <a href="/#contact"> Dúvidas</a>
             </li>
-
-            <li>
-                <a href="/#contato"> Contato</a>
-            </li>
-            
         </ul>
     );
 }
