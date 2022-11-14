@@ -1,0 +1,29 @@
+.portfolioList {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgba(221, 221, 219, 0.692);
+  
+    &.active {
+        width: auto;
+        border-radius: 10px;
+        background-color
+        : #ca5023d8 ;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        color: white;
+        font-weight: bold;
+    }
+}
+
+@media (max-width:550px) {
+    .portfolioList {
+      
+      
+        &.active {
+         
+        }
+    }
+}

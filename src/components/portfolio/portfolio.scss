@@ -1,27 +1,52 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,600&display=swap');
+
+:root {
+    --main-font-color: whitesmoke;
+    --main-font-family: 'Gotham', sans-serif ;
+    --secundary-font-color: white;
+    --secundary-font-color-dark: black;
+    --secundary-font-familily: 'Nunito Sans', sans-serif;
+    --background-color-font-box: rgba(245, 222, 179, 0.105);
+}
+
 
 #portfolio {
 
     width: 100%;
     height: auto;
-    margin-top: 40vh;
+    margin-top: 10vh;
+    font-family: var(--main-font-family);
 
 
     h2 {
-        color: rgb(73, 71, 71);
-        font-size: 50px;
+        color: var(--main-font-color);
+        font-size: 45px;
+        font-weight: 500;
     }
     h3 {
         width: 80%;
         margin: auto;
+        color: var(--main-font-color);
         line-height: 30px;
         font-weight: 100;
     }
 
+    ul {
+        width: 70%;
+        margin-left:initial;
+        margin-top: 50px;
+        list-style: none;
+        display: flex;
+        color: var(--secundary-font-color);
+        
+    }
+
+
     .container {
         width: 100%;
         height: auto;
-        margin-top: 15vh;
+        margin-top: 5vh;
         display: flex;
         flex-wrap: wrap;
 
@@ -32,114 +57,82 @@
             margin-top: 1vh;
             z-index: 55;
             border-radius: 10px;
+            cursor: pointer;
 
-            .box-text {
+
+            h2 {
+                color: var(--secundary-font-color-dark);
+                font-family: var(--secundary-font-familily);
+                font-weight: bold;
+                font-size: 35px;
+                margin: 25px;
+                margin-top: 170px;
                 position: absolute;
-                height: 5vh;
-                width: 150px;
-                margin-top: 30vh;
-                border-top-right-radius: 15px;
-                border-bottom-left-radius: 10px;
+                padding-left: 2px;
+                background-color: var(--background-color-font-box);
+                backdrop-filter: blur( 13.5px );
+                -webkit-backdrop-filter: blur( 13.5px );
+            }
+
+            h3 {
+                width: auto;
+                margin-top: 220px; margin-left: 25px;
+                color: var(--secundary-font-color-dark);
+                position: absolute;
+                text-align: left;
+                font-weight: bold;
+                padding-left: 2px;
+                background-color: var(--background-color-font-box);
+                backdrop-filter: blur( 13.5px );
+                -webkit-backdrop-filter: blur( 13.5px );
+            }
+            h4 {
+                width: 22%;
+                margin-top: -90px; margin-left: 25px;
+                color: var(--secundary-font-color-dark);
+                position: absolute;
+                text-align: left;
+                font-weight: 200;
+                padding-left: 2px;
+                background-color: var(--background-color-font-box);
+                backdrop-filter: blur( 13.5px );
+                -webkit-backdrop-filter: blur( 13.5px );
+            }
+            .link_a {
+                    margin-top: 270px;
+                    position: absolute;
+                    color: var(--secundary-font-color);
+                    margin-left: 25px;
+                    font-size: 18px;
+                    border-radius: 5px;
+                    padding: 5px;
+                    background-color: var(--secundary-font-color-dark);
+                    text-decoration: none;
+            }
+            .link {
+                margin-top: 270px;
+                position: absolute;
+                color: var(--secundary-font-color);
+                font-size: 18px;
+                margin-left: 100px;
+                border-radius: 5px;
+                padding: 5px;
+                background-color: var(--secundary-font-color-dark);
+            }
+
                 
-                background-color: rgba(29, 151, 231, 0.705);
-
-                h2 {
-                    font-size: 25px;
-                    color: white;
-                    margin: auto; margin-top: 1vh;
+                img {
+                    width:100%;
+                    height: 100%;
+                    border-radius: 5px;
                 }
-            }
-
-            img {
-                cursor: pointer;
-                width: 100%;
-                height: 100%;
-                border-radius: 10px;
-            }
-            .box-abs {
-                width: 24.5%;
-                height: 30vh;
-                background-color: rgba(27, 26, 26, 0.986);
-                position: absolute;
-                border-radius: 10px;
-                z-index: -1;
-
-                h2 {
-                    color: white;
-                    font-family: 'Nunito Sans', sans-serif;
-                    font-weight: 200;
-                    margin-top: 10vh;
-                    font-size: 35px;
-                }
-
-                h3 {
-                    margin-top: -1vh;
-                    margin-bottom: 2vh;
-                    color: rgba(19, 216, 223, 0.884);
-                }
-
-                a {
-                    color: white;
-                    text-decoration: none;
-                    margin-top: 2vh;
-                    padding: 5%;
-                }
-                a:hover {
-                    color: rgba(238, 200, 31, 0.438);
-                }
-            }
-            .box-abs-backend {
-                width: 24.5%;
-                height: 30vh;
-                background-color: rgba(27, 26, 26, 0.986);
-                position: absolute;
-                cursor: pointer;
-                border-radius: 10px;
-
-                h2 {
-                    color: white;
-                    font-family: 'Nunito Sans', sans-serif;
-                    font-weight: 200;
-                    margin-top: 10vh;
-                    font-size: 35px;
-                }
-
-                h3 {
-                    margin-top: -1vh;
-                    margin-bottom: 2vh;
-                    color: rgba(19, 216, 223, 0.884);
-                }
-
-                a {
-                    color: white;
-                    text-decoration: none;
-                    margin-top: 2vh;
-                    padding: 5%;
-                }
-                a:hover {
-                    color: rgba(238, 200, 31, 0.438);
-                }
-            }
         }
         .box:hover {
-
-            .box-abs{
-
-                height: 0%;
-                cursor: pointer;
-                z-index: 55;
-                animation: box-h .2s ;
-                animation-fill-mode: forwards;
+           
+            img {
+                zoom: 1.1;
             }
-
-            @keyframes box-h {
-                100% {
-                    height: 35vh;
-                }
-                0% {
-                    height: 0%;
-                }
-            }
+        
         }
         
         
@@ -151,8 +144,6 @@
     
 #portfolio {
     .container {
-
-
         .box {
             width: 33.3%;
         }
@@ -164,21 +155,14 @@
 @media (max-width: 1024px) {
     
     #portfolio {
-        margin-top: 50%;
+        margin-top: 20%;
 
         .container {
 
             .box {
-                width: 49%;
-
-                .box-abs, .box-abs-backend {
-                    width: 49%;
-                   
-                }
-                
+                width: 49%; 
             }
         }
-
     }
 }
 
@@ -198,44 +182,21 @@
                 margin-top: 1vh;
                 width: 100%;
 
-                .box-abs, .box-abs-backend {
-                    width: 100%;
-
-                    h2 {
-                        margin-top: 15%;
-                        font-size: 1.5em;
-                    }
-    
-                   
+                h2 {
+                    margin-top: 100px;
                 }
+                h3 {
+                    margin-top: 160px;
+                }
+
+                .link, .link_a {
+                    margin-top: 210px;
+                }
+
+               
             }
         }
 
     }
 }
 
-
-@media (max-width: 400px) {
-    
-    #portfolio {
-
-      
-        .container {
-           
-            .box {
-             
-
-                .box-abs, .box-abs-backend {
-          
-
-                    h2 {
-                     margin-top: 13%;
-                    }
-    
-                   
-                }
-            }
-        }
-
-    }
-}

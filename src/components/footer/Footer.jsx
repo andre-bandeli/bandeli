@@ -13,7 +13,6 @@ export default function Footer() {
           <img src="assets/git-ft.png" alt="github" /></a>
           <a href="https://www.linkedin.com/in/andrebandeli/" target="__blank">
           <img src="assets/in-ft.png" alt="linkedin" /></a>
-          <img src="assets/whatsapp.png" alt="" />
         </div>
         <div className="col-9">
           <h3>© 2022 Copyright: André Bandeli</h3>

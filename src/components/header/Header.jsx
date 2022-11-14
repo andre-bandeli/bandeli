@@ -1,6 +1,9 @@
 import React from 'react'
 import './header.scss'
 
+import git from './icones/git-ft.png'
+import linkedin from './icones/in-ft.png'
+
 import Typing from 'react-typing-animation';
 
 
@@ -16,31 +19,25 @@ export default function Header() {
             <h3>
                 Desenvolvedor Web Jr 
                 <br></br> Técnico Mecatrônico formado pelo Colégio Técnico de Campinas (Cotuca-Unicamp) 
-                <br></br> Graduando em Engenharia pela Unicamp
               </h3>
             </Typing>
             
             <div className="redes">
            
                 <a href="https://github.com/andre-bandeli" target="__blank">
-                <img src="assets/github.png" alt="" /></a>
+                <img src={git} alt="icone do github" /></a>
              
                 <a href="https://www.linkedin.com/in/andrébandeli/" target="__blank">
-                <img src="assets/in.png" alt="" /></a>
-            
-              <a target="__blank">
-                <h3>andre.lbandeli@gmail.com</h3>
-                <img src="assets/gmail.png" alt="" /></a>
+                <img src={linkedin} alt="icone do linkedin" /></a>
+
       
             </div>
 
-          
               <div className="btn">
-                  <a href="/#portfolio">
-                    <button className='btn-projects'>
-                          ver projetos
-                    </button>
-                  </a>
+                <a href="/#portfolio"> 
+                  <button className='btn-projects'>ver projetos</button>
+                </a>
+              
               </div>
 
         </div>

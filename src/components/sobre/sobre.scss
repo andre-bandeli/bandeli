@@ -1,6 +1,17 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,600&display=swap');
 
+:root {
+    --main-font-color: rgb(11, 118, 160);
+    --main-font-family: 'Gotham', sans-serif ;
+    --secundary-font-color: rgb(245, 245, 245);
+    --link-font-color: white;
+    --secundary-font-color-dark: black;
+    --secundary-font-familily: 'Nunito Sans', sans-serif;
+    --hover-bg-color: orangered;
+}
 
-#cards {
+#sobre {
 
     height: auto;
     margin-top: 10vh;
@@ -10,67 +21,62 @@
         width: 90%;
         height: 100%;
         margin: auto;
-        display: flex;
-        flex-wrap: wrap;
-
+        display: inline;
+    
         .box {
 
-            width: 55%;
+            width: 70%;
             height: auto;
             margin: auto;
-            margin-top: 5vh;
+            margin-left: auto;
             display: inline-block;
             
-            .txt {
-                height: 35vh;
-
-                h3 {
-                    text-align: center;
-                    color: rgb(11, 118, 160);
-                    font-size: 2.3em;
-                }
-                h4 {
-                    font-weight: 300;
-                    text-align: left;
-                    line-height: 30px;
-                    margin-top: 4vh;
-                    font-size: 1em;
-
-                }
-
-
+            h3 {
+                text-align: center;
+                color: var(--main-font-color);
+                font-size: 2.3em;
+                margin-top: 100px;
             }
+            h4 {
+                width: 100%;
+                font-weight: 200;
+                text-align: left;
+                line-height: 35px;
+                letter-spacing: 1px;
+                margin-top: 4vh;
+                font-size: 20px;
+                color: var(--secundary-font-color);
+
+                }
 
         }
-        a {
-
-            text-decoration: none;
-            color: black;
-            width: 45%;
-            margin-top: 5%;
-            margin-left: 45vh;
-            height: 40px;
-            cursor: pointer;
-            border-radius: 15px;
-            border: 2px solid rgba(255, 0, 0, 0.514);
-
-            .btn-secundary {
-               border: none;
-               margin-top: 1vh;
-
-            }
-        }
-        a:hover {
-            background-color: rgba(255, 0, 0, 0.514);
-            transition: .4s ease-in-out;
-            .btn-secundary {
-               background-color: transparent;
-               border: none;
-               margin-top: 1vh;
-
+        .btn {
+            width: 100%;
+            background-color: transparent;
+            height: 100px;
+            visibility: visible;
+            a {
+                width: 200px;
+                height: 50px;
+                margin: auto;
+                
+                .btn-secundary {
+                    width: 100%;
+                    height: 100%;
+                    background-color: transparent;
+                    border: 1px solid rgb(10, 10, 10);
+                    cursor: pointer;
+                    color: var(--link-font-color);
     
+                }
+                .btn-secundary:hover {
+                    background-color: rgba(30, 23, 24, 0.779);
+                    color: var(--hover-bg-color);
+                    transition: .2s ease;
+                }
             }
         }
+        
     }
 }
 
@@ -78,12 +84,12 @@
 
  @media (max-width: 1440px) {
     
-     #cards {
+     #sobre {
      
         .container {
             
              .box {
-                margin-top: 25vh;
+     
                 height: auto;
     
              }
@@ -102,12 +108,11 @@
 }
  @media (max-width: 1024px) {
     
- #cards {
+ #sobre {
 
      .container {
 
         .box {
-            margin-top: 25vh;
             height: auto;
         }
  
@@ -125,11 +130,11 @@
 
 @media (max-width: 768px) {
     
-     #cards {
+     #sobre {
         height: 160vh;
          .container {
             margin: auto;
-            margin-top: 5vh;
+   
             display: inline-block;
 
              .box {
@@ -158,12 +163,11 @@
 
 @media (max-width: 550px) {
     
-     #cards {
+     #sobre {
         height: auto;
     
          .container {
-          
-             margin-top: 0vh;
+        
 
             
             .btn-secundary {
@@ -178,7 +182,7 @@
 
  @media (max-width: 550px) {
     
-    #cards {
+    #sobre {
      
    
         .container {
@@ -200,28 +204,3 @@
         }
     }
 }
-
-
-// @media (max-width: 400px) {
-    
-//     .cards {
-    
-//         .container {
-          
-//             margin-top: 50vh;
-          
-//         }
-//     }
-// }
-// @media (max-width: 300px) {
-    
-//     .cards {
-    
-//         .container {
-          
-//             margin-top: 60vh;
-          
-//         }
-//     }
-// }
-

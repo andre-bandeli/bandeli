@@ -1,28 +1,95 @@
 import React from 'react'
 import './portfolio.scss'
+import { useEffect, useState } from "react";
+import PortfolioList from "./PortfolioList";
+
+import {
+    todos,
+    reactjs,
+    java,
+    python,
+} from '../../data';
 
 export default function Portfolio() {
+
+    const [selected, setSelected] = useState("todos");
+    const [data, setData] = useState([]);
+    const list = [
+        {
+        id: "todos",
+        title: "Todos",
+        },
+        {
+        id: "react",
+        title: "React",
+        },
+        {
+        id: "java",
+        title: "Java",
+        },
+        {
+        id: "python",
+        title: "Python",
+        },
+    ];
+
+    useEffect(() => {
+        switch (selected) {
+        case "todos":
+            setData(todos);
+            break;
+        case "react":
+            setData(reactjs);
+            break;
+        case "java":
+            setData(java);
+            break;
+        case "python":
+            setData(python);
+            break;
+        default:
+            setData(todos);
+        }
+    }, [selected]);
 
   return (
     <div id='portfolio'>
         <h2>Projetos</h2>
-        <h3>Confira aqui meus projetos. Você pode também filtra-los através das tags abaixo por categoria ou por stack </h3>
+        <h3>Aqui estão reunidos alguns dos meus projetos. Para ver todos, acesse minha página no github</h3>
+
+        <ul>
+            {list.map((item) => (
+            <PortfolioList
+                title={item.title}
+                active={selected === item.id}
+                setSelected={setSelected}
+                id={item.id}
+            />
+            ))}
+        </ul>
 
         <div className="container">
-
-            <div className="box">
-                <div className="box-text">
-                    <h2>React JS</h2>
+            {data.map((d) => (
+                <div className="box">
+                        <h2>{d.title}</h2>
+                        <h3>{d.legenda}</h3>
+                        <a href={d.git} target="__blank" className='link_a'>github</a>
+                        <a href={d.view} target="__blank" className='link'>online</a>
+                        <img src={d.img} alt={d.img_alt} />
+                        <h4>{d.texto}</h4>
                 </div>
-            <div className="box-abs">
-                <h2>OdontoClean</h2>
-                <h3>React JS + SCSS + HTML </h3>
-                <a href="https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/" target="__blank">ver online </a>
-                <a href="https://github.com/andre-bandeli/UI-Design-Landing-Page-Odonto-Clean" target="__blank"> ver no github</a>
-                    </div>
-                <img src="assets/odonto.png" alt="" />
-            </div>
-            <div className="box">
+            ))}
+        </div>
+    </div>
+  );
+}
+
+            
+
+
+
+            
+            {/* <div className="box">
             <div className="box-text">
                     <h2>Java</h2>
                 </div>
@@ -95,17 +162,18 @@ export default function Portfolio() {
                     </div>
                 <img src="assets/p2.png" alt="" />
             </div>
+
             <div className="box">
-            <div className="box-text">
+                <div className="box-text">
                     <h2>React JS</h2>
                 </div>
             <div className="box-abs">
-                <h2>SmartGym</h2>
-                <h3>Python + Django + Heroku + JavaScript + HTML + CSS  </h3>
-                <a href="">ver online </a>
-                <a href=""> ver no github</a>
+                <h2>OdontoClean</h2>
+                <h3>React JS + SCSS + HTML </h3>
+                <a href="https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/" target="__blank">ver online </a>
+                <a href="https://github.com/andre-bandeli/UI-Design-Landing-Page-Odonto-Clean" target="__blank"> ver no github</a>
                     </div>
-                <img src="assets/gym.png" alt="" />
+                <img src="assets/odonto.png" alt="" />
             </div>
             <div className="box">
             <div className="box-text">
@@ -145,22 +213,17 @@ export default function Portfolio() {
                     </div>
                     <img src="assets/back.png" alt="" />
             </div>
-            
+
             <div className="box">
             <div className="box-text">
                     <h2>React JS</h2>
                 </div>
-                <div className="box-abs-backend">
-                <h2>CRUD Java</h2>
-                <h3>Java + Spring Boot + JUnit + Docker + MySQL  </h3>
-                <a href="https://github.com/andre-bandeli/SpringBoot-Crud-Javac" target="__blank"> ver no github</a>
+            <div className="box-abs">
+                <h2>SmartGym</h2>
+                <h3>Python + Django + Heroku + JavaScript + HTML + CSS  </h3>
+                <a href="">ver online </a>
+                <a href=""> ver no github</a>
                     </div>
-                    <img src="assets/back.png" alt="" />
-            </div>
+                <img src="assets/gym.png" alt="" />
+            </div> */}
             
-    
-        
-        </div>
-    </div>
-  )
-}

@@ -1,55 +1,66 @@
 import React from 'react'
 import './ferramentas.scss'
 
+import java from './icones/java.png'
+import python from './icones/python.png'
+import wordpress from './icones/wordpress.png'
+import docker from './icones/docker.png'
+import spring from './icones/spring.png'
+import mysql from './icones/mysql.png'
+import kafka from './icones/kafka.png'
+import react from './icones/react.png'
+import bootstrap from './icones/bootstrap.png'
+
 export default function Ferramentas() {
   return (
     <div id='ferramentas'>
 
         <h2>Stacks de Atuação</h2>
+        <h3>Aqui estão reunidos alguns dos meus projetos. Para ver todos, acesse minha página no github</h3>
 
         <div className="container">
             <div className="box">
-                <img src="assets/java.png" alt="" />
+                <img src={java} alt="ícone do java" />
                 <h2>Java</h2>
             </div>
 
             <div className="box">
-                <img src="assets/python.png" alt="" />
+                <img src={python} alt="ícone do python" />
                 <h2>Python</h2>
             </div>
 
             <div className="box">
-                <img src="assets/wordpress.png" alt="" />
+                <img src={wordpress} alt="ícone do wordpress" />
                 <h2>Wordpress</h2>
             </div>
 
             <div className="box">
-                <img src="assets/docker.png" alt="" />
+                <img src={docker} alt="ícone do docker" />
                 <h2>Docker</h2>
             </div>
 
             <div className="box">
-                <img src="assets/spring.png" alt="" />
+                <img src={spring} alt="ícone do spring" />
                 <h2>SpringBoot</h2>
             </div>
 
             <div className="box">
-                <img src="assets/mysql.png" alt="" />
+                <img src={mysql} alt="ícone do mysql" />
                 <h2>MySQL</h2>
             </div>
 
             <div className="box">
-                <img src="assets/kafka.png" alt="" />
+                <img src={kafka} alt="ícone do kafka" />
                 <h2>Kafka</h2>
             </div>
 
             <div className="box">
-                <img src="assets/react.png" alt="" />
+                <img src={react} alt="ícone do react js" />
                 <h2>React JS</h2>
             </div>
 
             <div className="box">
-                <img src="assets/bootstrap.png" alt="" />
+                <img src={bootstrap} alt="" />
                 <h2>Bootstrap</h2>
             </div>
 

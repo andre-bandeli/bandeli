@@ -1,5 +1,17 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,600&display=swap');
 
-#posts {
+:root {
+    --main-font-color: whitesmoke;
+    --main-font-family: 'Gotham', sans-serif ;
+    --secundary-font-color: white;
+    --secundary-font-color-dark: black;
+    --secundary-font-familily: 'Nunito Sans', sans-serif;
+    --background-color-cards: rgba(27, 166, 201, 0.452);
+}
+
+
+#certificados {
 
     width: 100%;
     height: auto;
@@ -8,9 +20,16 @@
 
 
     h2 {
-        color: rgb(73, 71, 71);
-        font-size: 50px;
-
+        color: var(--main-font-color);
+        font-size: 45px;
+        font-weight: 500;
+    }
+    h3 {
+        width: 80%;
+        margin: auto;
+        color: var(--main-font-color);
+        line-height: 30px;
+        font-weight: 100;
     }
 
     .container {
@@ -21,13 +40,26 @@
         display: flex;
         flex-wrap: wrap;
 
+        .kXteup {
+            background-color: rgb(36, 35, 35);
+        }
+        .cVXxbE {
+            background-color: #daa520d8;
+            box-shadow: rgba(130, 16, 16, 0.1) 0px 20px 25px -5px, rgba(205, 32, 32, 0.04) 0px 10px 10px -5px;
+            border: none;
+        }
+
+        .kXteup:hover:enabled, .kXteup:focus:enabled {
+            background-color: rgb(30, 28, 28);
+            box-shadow: rgba(58, 57, 57, 0.25) 0px 54px 55px, rgba(159, 158, 158, 0.12) 0px -12px 30px, rgba(74, 73, 73, 0.12) 0px 4px 6px, rgba(170, 166, 166, 0.17) 0px 12px 13px, rgba(135, 135, 135, 0.09) 0px -3px 5px;
+        }
+
         .box {
             width: 82%;
             height: 45vh;
             border: 1px solid rgba(0, 0, 0, 0.171);
             box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-            background-color: rgba(28, 207, 28, 0.466);
-            background-color: rgba(27, 166, 201, 0.452);
+            background-color: var(--background-color-cards);
             border-radius: 10px;
             margin: auto;
             margin-bottom: 5vh;
@@ -39,7 +71,7 @@
                 display: flex;
     
                 h1 {
-                    color: black;
+                    color: var(--secundary-font-color-dark);
                     text-align: center;
                     margin: auto;
                     margin-top: 3vh;
@@ -56,7 +88,7 @@
 
                 h2 {
                     font-size: 20px;
-                    color: black;
+                    color: var(--secundary-font-color-dark);
                     text-align: center;      
                     vertical-align: middle;       
                     margin-left: 2vh; margin-right: 2vh;
@@ -65,7 +97,7 @@
                     padding: 2%;
                 }
                 h3 {
-                    color: black;
+                    color: var(--secundary-font-color-dark);
                     text-align: center;
                     padding: 2%;
                     font-weight: 600;
@@ -84,7 +116,7 @@
                     }
 
                     h1 {
-                        color: black;
+                        color: var(--secundary-font-color-dark);
                         text-align: center;
                         margin: auto;
                         margin-top: 3vh;
@@ -110,15 +142,7 @@
 
 @media (max-width: 550px) {
     
-#posts {
-
-
-
-    h2 {
-        color: rgb(73, 71, 71);
-        font-size: 40px;
-
-    }
+#certificados {
 
     .container {
 
@@ -129,11 +153,9 @@
             height: 55vh;
 
             .text {
-            
-
+        
                 h2 {
                     font-size: 19px;
-
                 }
             }
 
@@ -149,7 +171,7 @@
 
 @media (max-width: 400px) {
     
-    #posts {
+    #certificados {
     
         .container {
     

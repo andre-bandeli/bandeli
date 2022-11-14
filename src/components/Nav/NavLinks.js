@@ -2,7 +2,7 @@ const NavLinks = () => {
     return (  
         
         <ul>
-            <img src="assets/logo-name.png"></img>
+            <img src="assets/logo.png"></img>
             <li>
                 <a href="/#header"> Home</a>
             </li>
