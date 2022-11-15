@@ -8,7 +8,7 @@ export default function Sobre() {
         <div className="container">
             <div className="box">
                 <h3>Sobre</h3>
-                <h4> Natural de Conchal, São Paulo, me mudei aos 16 anos (em 2014) para Campinas/SP. Me formei como Técnico em Mecatrônico e Assistente de Projetos e Processos Industriais Mecânicos pelo Colégio Técnico de Campinas (Cotuca - Unicamp), onde realizei 
+                <h4> Natural de Conchal, São Paulo, me mudei aos 16 anos (em 2014) para Campinas/SP. Me formei como Técnico em Mecatrônica e Assistente de Projetos e Processos Industriais Mecânicos pelo Colégio Técnico de Campinas (Cotuca - Unicamp), onde realizei 
                     também meu ensino médio.</h4>
                 <h4>Trabalhando desde os 13 anos, iniciei em 2012 como mecânico de motos. Em 2014 atuei no setor recreativo durante 3 anos; Em 2017, iniciei como técnico de manutenção industrial durante 4 anos e meio e, atualmente, 
                     com desenvolvimento de software.</h4>

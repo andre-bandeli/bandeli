@@ -49,6 +49,7 @@
         margin-top: 5vh;
         display: flex;
         flex-wrap: wrap;
+        justify-content: left;
 
         .box {
             width: 24.5%;
@@ -58,6 +59,7 @@
             z-index: 55;
             border-radius: 10px;
             cursor: pointer;
+            
 
 
             h2 {

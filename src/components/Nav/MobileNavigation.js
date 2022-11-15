@@ -9,7 +9,7 @@ const MobileNavigation = () => {
 
     const hamburguerIcon = <CgMenu className='Hamburguer'size='40px' color='rgb(30, 111, 216)' onClick={() => setOpen(!open)}/>
 
-    const closeIcon = <CgClose className='Hamburguer'size='30px' color='black' onClick={() => setOpen(!open)}/>
+    const closeIcon = <CgClose className='Hamburguer'size='30px' color='red' onClick={() => setOpen(!open)}/>
 
     const [open, setOpen] = useState(false);
     return (  

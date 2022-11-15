@@ -1,4 +1,6 @@
 const NavLinksMobile = () => {
+
+
     return ( 
         <ul className="mob">
             <li>
@@ -19,8 +21,10 @@ const NavLinksMobile = () => {
             <li>
                 <a href="/#contato">Contato</a>
             </li>
+            
     </ul>
      );
+    
 }
  
 export default NavLinksMobile;

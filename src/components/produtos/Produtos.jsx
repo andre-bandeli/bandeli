@@ -8,9 +8,8 @@ export default function Produtos() {
 
   return (
     <div className='produtos' id='produtos'>
-         <h2>Produtos e Serviços</h2>
-        <h3>Realização de websites institucionais, components e sistemas backend, revisão e melhorias em pontuação SEO são algumas das minhas
-            principais atuações. </h3>
+         <h2>Atividades e Produtos</h2>
+        <h3>Realização de websites institucionais, components e sistemas backend, revisão e melhorias em pontuação SEO são algumas das atividades que venho realizando</h3>
         <div className="container">
             <div className="box">
 

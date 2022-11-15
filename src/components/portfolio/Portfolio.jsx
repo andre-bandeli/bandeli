@@ -55,7 +55,7 @@ export default function Portfolio() {
   return (
     <div id='portfolio'>
         <h2>Projetos</h2>
-        <h3>Aqui estão reunidos alguns dos meus projetos. Para ver todos, acesse minha página no github</h3>
+        <h3>Aqui estão reunidos alguns de meus principais projetos. Para ver todos, acesse meu github.</h3>
 
         <ul>
             {list.map((item) => (
