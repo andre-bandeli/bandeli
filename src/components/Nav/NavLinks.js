@@ -37,33 +37,33 @@ const NavLinks = () => {
 
                 <li className='li-selector'>
                     <div className='link'>
-                        <a href="/#header"> Home</a>
+                        <a href="/#header" alt="botão home"> Home</a>
                     </div>
                     
                 </li>
                 <li>
                     <div className='link'>
-                        <a href="/#portfolio"> Projetos</a>
+                        <a href="/#portfolio" alt="botão projetos"> Projetos</a>
                     </div>
                 </li>
                 <li>
                     <div className='link'>
-                        <a href="/#sobre"> Sobre</a>
+                        <a href="/#sobre"  alt="botão sobre"> Sobre</a>
                     </div>
                 </li>
                 <li>
                     <div className='link'>
-                        <a href="/#certificados"> Certificados</a>
+                        <a href="/#certificados"  alt="botão certificados"> Certificados</a>
                     </div>
                 </li>
                 <li>
                     <div className='link'>
-                        <a href="/#ferramentas">Stacks</a>
+                        <a href="/#ferramentas"  alt="botão ferramentas">Stacks</a>
                     </div>
                 </li>
                 <li>
                     <div className='link'>
-                        <a href="/#contato">Contato</a>
+                        <a href="/#contato"  alt="botão contato">Contato</a>
                     </div>
                 </li>
                 <li className="li-social">
