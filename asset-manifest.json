@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/andrebandeli-react-website/static/css/main.d6733dce.css",
-    "main.js": "/andrebandeli-react-website/static/js/main.0a04882d.js",
+    "main.css": "/andrebandeli-react-website/static/css/main.e8d379cf.css",
+    "main.js": "/andrebandeli-react-website/static/js/main.07d73938.js",
     "static/media/foto.png": "/andrebandeli-react-website/static/media/foto.bec035dd8fb3a3efbe8b.png",
     "static/media/react.png": "/andrebandeli-react-website/static/media/react.86c8d9eba03e29814d2a.png",
     "static/media/tag-seo.png": "/andrebandeli-react-website/static/media/tag-seo.6e0a56ab2e1948a9d53a.png",
@@ -19,11 +19,11 @@
     "static/media/spring.png": "/andrebandeli-react-website/static/media/spring.ee26fe97f288b47ec157.png",
     "static/media/docker.png": "/andrebandeli-react-website/static/media/docker.e0ba9d2386737b9f87c6.png",
     "index.html": "/andrebandeli-react-website/index.html",
-    "main.d6733dce.css.map": "/andrebandeli-react-website/static/css/main.d6733dce.css.map",
-    "main.0a04882d.js.map": "/andrebandeli-react-website/static/js/main.0a04882d.js.map"
+    "main.e8d379cf.css.map": "/andrebandeli-react-website/static/css/main.e8d379cf.css.map",
+    "main.07d73938.js.map": "/andrebandeli-react-website/static/js/main.07d73938.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6733dce.css",
-    "static/js/main.0a04882d.js"
+    "static/css/main.e8d379cf.css",
+    "static/js/main.07d73938.js"
   ]
 }
