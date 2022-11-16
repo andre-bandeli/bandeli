@@ -3,7 +3,7 @@ export const todos = [
       id: 1,
       title: "King Burguer React",
       legenda: "React JS + SCSS + HTML",
-      img:"assets/hamburgueria.png",
+      img:"assets/hamburgueria.svg",
       img_alt:"imagem fundo hamburgueria",
       view:"https://andre-bandeli.github.io/hamburgueria-react-app/",
       git:"https://github.com/andre-bandeli/hamburgueria-react-app",
@@ -12,7 +12,7 @@ export const todos = [
         id: 2,
         title: "Maintenance Manager",
         legenda: "Java + Spring Boot + Bootstrap",
-        img:"assets/projeto-1.png",
+        img:"assets/projeto-1.svg",
         img_alt:"imagem fundo gestor de manutenção",
         view:"/",
         git:"https://github.com/andre-bandeli/maintenance-manager-REST-spring-boot",
@@ -21,7 +21,7 @@ export const todos = [
         id: 3,
         title: "Netflix Clone + Django",
         legenda: "Python + Django + Heroku + Bootstrap",
-        img: "assets/projeto-2.png",
+        img: "assets/projeto-2.svg",
         img_alt:"imagem fundo site netflix",
         view:"https://netflix-app-django.herokuapp.com/user",
         git:"https://github.com/andre-bandeli/netflix-template"
@@ -31,7 +31,7 @@ export const todos = [
         title: "Api REST Django",
         legenda: "Python + Django + Bootstrap",
         img:
-          "assets/webrest.png",
+          "assets/webrest.svg",
           img_alt:"imagem fundo aplicação",
         view:"https://django-ouath.herokuapp.com/accounts/login/",
         git:"https://github.com/andre-bandeli/api-rest-django"
@@ -40,7 +40,7 @@ export const todos = [
         id: 5,
         title: "OdontoClean React",
         legenda: "React JS + SCSS + HTML",
-        img: "assets/odonto.png",
+        img: "assets/odonto.svg",
         img_alt:"imagem fundo aplicação",
         view:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/",
           git:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/"
@@ -50,7 +50,7 @@ export const todos = [
         title: "SmartGym React app",
         legenda: "React JS + SCSS + HTML",
         img:
-            "assets/gym.png",
+            "assets/gym.svg",
             img_alt:"imagem fundo aplicação",
         view:"https://andre-bandeli.github.io/react-gym-website-template/",
         git:"https://github.com/andre-bandeli/react-gym-website-template"
@@ -60,7 +60,7 @@ export const todos = [
         title: "Leads React Spring",
         legenda: "Spring Boot + React JS + SCSS",
         img:
-            "assets/leads.png",
+            "assets/leads.svg",
             img_alt:"imagem fundo aplicação",
         view:"h/",
         git:"https://github.com/andre-bandeli/springboot-api-crud-java-react"
@@ -70,7 +70,7 @@ export const todos = [
         title: "Guia Virtual",
         legenda: "Django + JS + SCSS + HTML",
         img:
-            "assets/guia.png",
+            "assets/guia.svg",
             img_alt:"imagem fundo aplicação",
         view:"https://guia-virtual.herokuapp.com/",
         git:"https://github.com/andre-bandeli/guia-virtual-de-atendimento-a-mulheres-vitmas-de-violencia"
@@ -122,7 +122,7 @@ export const reactjs = [
     id: 1,
     title: "King Burguer React",
     legenda: "React JS + SCSS + HTML",
-    img:"assets/hamburgueria.png",
+    img:"assets/hamburgueria.svg",
     img_alt:"imagem fundo hamburgueria",
     view:"https://andre-bandeli.github.io/hamburgueria-react-app/",
     git:"https://github.com/andre-bandeli/hamburgueria-react-app",
@@ -131,7 +131,7 @@ export const reactjs = [
         id: 5,
         title: "OdontoClean React",
         legenda: "React JS + SCSS + HTML",
-        img: "assets/odonto.png",
+        img: "assets/odonto.svg",
         img_alt:"imagem fundo aplicação",
         view:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/",
           git:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/"
@@ -141,7 +141,7 @@ export const reactjs = [
       title: "SmartGym React app",
       legenda: "React JS + SCSS + HTML",
       img:
-          "assets/gym.png",
+          "assets/gym.svg",
           img_alt:"imagem fundo aplicação",
       view:"https://andre-bandeli.github.io/react-gym-website-template/",
       git:"https://github.com/andre-bandeli/react-gym-website-template"
@@ -151,7 +151,7 @@ export const reactjs = [
     title: "Leads React Spring",
     legenda: "Spring Boot + React JS + SCSS",
     img:
-        "assets/leads.png",
+        "assets/leads.svg",
         img_alt:"imagem fundo aplicação",
     view:"h/",
     git:"https://github.com/andre-bandeli/springboot-api-crud-java-react"
@@ -163,7 +163,7 @@ export const java = [
     id: 2,
     title: "Maintenance Manager",
     legenda: "Java + Spring Boot + Bootstrap",
-    img:"assets/projeto-1.png",
+    img:"assets/projeto-1.svg",
     img_alt:"imagem fundo gestor de manutenção",
     view:"/",
     git:"https://github.com/andre-bandeli/maintenance-manager-REST-spring-boot",
@@ -173,7 +173,7 @@ export const java = [
   title: "Leads Capture React",
   legenda: "React JS + SCSS + HTML",
   img:
-    "assets/webrest.png",
+    "assets/webrest.svg",
     img_alt:"imagem fundo aplicação",
     git:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/"
 },
@@ -225,7 +225,7 @@ export const python = [
     id: 3,
     title: "Netflix Clone + Django",
     legenda: "Python + Django + Heroku + Bootstrap",
-    img: "assets/projeto-2.png",
+    img: "assets/projeto-2.svg",
     img_alt:"imagem fundo site netflix",
     view:"https://netflix-app-django.herokuapp.com/user",
     git:"https://github.com/andre-bandeli/netflix-template"
@@ -235,7 +235,7 @@ export const python = [
       title: "Api REST Django",
       legenda: "Python + Django + Bootstrap",
       img:
-        "assets/webrest.png",
+        "assets/webrest.svg",
         img_alt:"imagem fundo aplicação",
       view:"https://django-ouath.herokuapp.com/accounts/login/",
       git:"https://github.com/andre-bandeli/api-rest-django"
@@ -245,7 +245,7 @@ export const python = [
     title: "Guia Virtual",
     legenda: "Django + JS + SCSS + HTML",
     img:
-        "assets/guia.png",
+        "assets/guia.svg",
         img_alt:"imagem fundo aplicação",
     view:"https://guia-virtual.herokuapp.com/",
     git:"https://github.com/andre-bandeli/guia-virtual-de-atendimento-a-mulheres-vitmas-de-violencia"
