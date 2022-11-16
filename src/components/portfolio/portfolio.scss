@@ -60,7 +60,7 @@
 
 
             h2 {
-                color: var(--secundary-font-color-dark);
+                color: rgb(28, 27, 27);
                 font-family: var(--secundary-font-familily);
                 font-weight: bold;
                 font-size: 35px;
@@ -76,7 +76,7 @@
             h3 {
                 width: auto;
                 margin-top: 150px; margin-left: 25px;
-                color: var(--secundary-font-color-dark);
+                color: rgb(28, 27, 27);
                 position: absolute;
                 text-align: left;
                 font-weight: bold;
@@ -85,22 +85,10 @@
                 backdrop-filter: blur( 13.5px );
                 -webkit-backdrop-filter: blur( 13.5px );
             }
-            h4 {
-                width: 22%;
-                margin-top: -90px; margin-left: 25px;
-                color: var(--secundary-font-color-dark);
-                position: absolute;
-                text-align: left;
-                font-weight: 200;
-                padding-left: 2px;
-                background-color: var(--background-color-font-box);
-                backdrop-filter: blur( 13.5px );
-                -webkit-backdrop-filter: blur( 13.5px );
-            }
             .link_a {
                     margin-top: 190px;
                     position: absolute;
-                    color: var(--secundary-font-color);
+                    color: rgb(28, 27, 27);
                     margin-left: 25px;
                     font-size: 18px;
                     border-radius: 5px;
@@ -111,7 +99,7 @@
             .link {
                 margin-top: 190px;
                 position: absolute;
-                color: var(--secundary-font-color);
+                color: rgb(28, 27, 27);
                 font-size: 18px;
                 margin-left: 100px;
                 border-radius: 5px;
