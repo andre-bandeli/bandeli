@@ -7,8 +7,8 @@ export default function Separador() {
     <div className='separador'>
 
         <div className="container">
-            <a href="#produtos">
-            <img src={chevron} alt="" />
+            <a href="#produtos" alt="botão produtos">
+            <img src={chevron} alt="imagem botão seta para baixa" />
             </a>
             
         </div>
