@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/andrebandeli-react-website/static/css/main.affa8283.css",
+    "main.css": "/andrebandeli-react-website/static/css/main.4cfc210c.css",
     "main.js": "/andrebandeli-react-website/static/js/main.1ccf1e10.js",
     "static/media/foto.png": "/andrebandeli-react-website/static/media/foto.bec035dd8fb3a3efbe8b.png",
     "static/media/react.png": "/andrebandeli-react-website/static/media/react.86c8d9eba03e29814d2a.png",
@@ -19,11 +19,11 @@
     "static/media/spring.png": "/andrebandeli-react-website/static/media/spring.ee26fe97f288b47ec157.png",
     "static/media/docker.png": "/andrebandeli-react-website/static/media/docker.e0ba9d2386737b9f87c6.png",
     "index.html": "/andrebandeli-react-website/index.html",
-    "main.affa8283.css.map": "/andrebandeli-react-website/static/css/main.affa8283.css.map",
+    "main.4cfc210c.css.map": "/andrebandeli-react-website/static/css/main.4cfc210c.css.map",
     "main.1ccf1e10.js.map": "/andrebandeli-react-website/static/js/main.1ccf1e10.js.map"
   },
   "entrypoints": [
-    "static/css/main.affa8283.css",
+    "static/css/main.4cfc210c.css",
     "static/js/main.1ccf1e10.js"
   ]
 }
