@@ -10,7 +10,7 @@ import {
 
 export default function Certificados() {
 
-  const [selected, setSelected] = useState("certificados");
+  const [selected] = useState("certificados");
   const [data, setData] = useState([]);
 
   const breakPoints = [

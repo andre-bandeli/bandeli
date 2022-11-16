@@ -3,6 +3,8 @@ import './portfolio.scss'
 import { useEffect, useState } from "react";
 import PortfolioList from "./PortfolioList";
 
+import image from './hamburgueria.svg'
+
 import {
     todos,
     reactjs,
@@ -77,7 +79,7 @@ export default function Portfolio() {
                         <a href={d.git} target="__blank" className='link_a' alt="botão github">github</a>
                             <a href={d.git} target="__blank" className='link_a' alt="botão github">github</a>
                             <a href={d.view} target="__blank" className='link' alt="botão página online">online</a>
-                            <img src={d.img} alt={d.img_alt} />
+                            <img src={image} alt={d.img_alt} />
                 </div>
             ))}
         </div>
