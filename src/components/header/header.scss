@@ -61,6 +61,7 @@
             animation: opac 8s;
             img {
                 width: 30px;
+                height: 30px;
             }
             a {
                 padding: 2%;
@@ -119,6 +120,7 @@
                     margin: auto;
                     background-color: transparent;
                     border: 2px solid rgb(10, 10, 10);
+                    box-shadow: rgba(49, 48, 48, 0.252) 0px 7px 29px 0px;
                     border-radius: 5px;
                     cursor: pointer;
                     color: var(--secundary-font-color);
@@ -136,5 +138,22 @@
 @media (max-width:550px) {
     .header {
         height: 130vh;
+
+        .container {
+            margin-top: 25vh;
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            
+            .spn-name {
+
+                h2 {
+                    font-size: 2.7em;
+                }
+            }
+            h3 {
+                font-size: 14px;
+            }
+        }
     }
 }

@@ -22,8 +22,8 @@ export default function Sobre() {
 
             </div>
             <div className="btn">
-                <a href="assets/cv.pdf" download>
-                <button className='btn-secundary'>
+                <a href="assets/andre-bandeli.pdf" download alt="botao para download do curriculo">
+                <button className='btn-secundary' alt="botao para download do curriculo">
                 baixar currículo</button>
                 </a>
             </div>
