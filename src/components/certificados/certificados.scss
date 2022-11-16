@@ -5,7 +5,8 @@
     --main-font-color: whitesmoke;
     --main-font-family: 'Gotham', sans-serif ;
     --secundary-font-color: white;
-    --secundary-font-color-dark: black;
+    --secundary-font-color-dark-h1: rgb(23, 21, 21);
+    --secundary-font-color-dark: rgb(18, 17, 17);
     --secundary-font-familily: 'Nunito Sans', sans-serif;
     --background-color-cards: rgba(27, 166, 201, 0.452);
 }
@@ -69,7 +70,7 @@
                 display: flex;
     
                 h1 {
-                    color: var(--secundary-font-color-dark);
+                    color: var(--secundary-font-color-dark-h1);
                     text-align: center;
                     margin: auto;
                     margin-top: 3vh;

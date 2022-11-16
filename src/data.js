@@ -14,6 +14,7 @@ export const todos = [
         legenda: "Java + Spring Boot + Bootstrap",
         img:"assets/projeto-1.png",
         img_alt:"imagem fundo gestor de manutenção",
+        view:"/",
         git:"https://github.com/andre-bandeli/maintenance-manager-REST-spring-boot",
     },
     {
@@ -61,6 +62,7 @@ export const todos = [
         img:
             "assets/leads.png",
             img_alt:"imagem fundo aplicação",
+        view:"h/",
         git:"https://github.com/andre-bandeli/springboot-api-crud-java-react"
     },
     {
@@ -74,77 +76,85 @@ export const todos = [
         git:"https://github.com/andre-bandeli/guia-virtual-de-atendimento-a-mulheres-vitmas-de-violencia"
     },
     {
-      id: 4,
+      id: 9,
       title: "Microsservices Java",
       legenda: "Java 11 + Spring Boot + Docker",
       img:
         "assets/linux.jpg",
         img_alt:"imagem fundo aplicação",
+        view:"/",
         git:"https://github.com/andre-bandeli/microsservices-java-spring-boot"
     },
     {
-      id: 4,
+      id: 10,
       title: "CRUD Java",
       legenda: "Java 11 + Spring Boot",
       img:
         "assets/linux.jpg",
         img_alt:"imagem fundo aplicação",
+        view:"/",
         git:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/"
     },
     {
-      id: 4,
+      id: 11,
       title: "Player Music Kafka",
       legenda: "Java 11 + Docker + Kafka",
       img:
         "assets/linux.jpg",
         img_alt:"imagem fundo aplicação",
+        view:"/",
         git:"https://github.com/andre-bandeli/microsservice-java-kafka-player-music"
     },
     {
-      id: 4,
+      id: 12,
       title: "Leads Capture React",
       legenda: "React JS + SCSS + HTML",
       img:
         "assets/linux.jpg",
         img_alt:"imagem fundo aplicação",
+        view:"/",
         git:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/"
     },
   ];
   
 export const reactjs = [
   {
-  id: 1,
-  title: "King Burguer React",
-  legenda: "React JS + SCSS + HTML",
-  img:"assets/hamburgueria.png",
-  img_alt:"imagem fundo aplicação",
-  git:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/",
+    id: 1,
+    title: "King Burguer React",
+    legenda: "React JS + SCSS + HTML",
+    img:"assets/hamburgueria.png",
+    img_alt:"imagem fundo hamburgueria",
+    view:"https://andre-bandeli.github.io/hamburgueria-react-app/",
+    git:"https://github.com/andre-bandeli/hamburgueria-react-app",
+      },
+      {
+        id: 5,
+        title: "OdontoClean React",
+        legenda: "React JS + SCSS + HTML",
+        img: "assets/odonto.png",
+        img_alt:"imagem fundo aplicação",
+        view:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/",
+          git:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/"
     },
     {
-      id: 5,
-      title: "OdontoClean React",
+      id: 6,
+      title: "SmartGym React app",
       legenda: "React JS + SCSS + HTML",
-      img: "assets/odonto.png",
-      img_alt:"imagem fundo aplicação",
-        git:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/"
+      img:
+          "assets/gym.png",
+          img_alt:"imagem fundo aplicação",
+      view:"https://andre-bandeli.github.io/react-gym-website-template/",
+      git:"https://github.com/andre-bandeli/react-gym-website-template"
   },
   {
-    id: 6,
-    title: "SmartGym React app",
-    legenda: "React JS + SCSS + HTML",
+    id: 7,
+    title: "Leads React Spring",
+    legenda: "Spring Boot + React JS + SCSS",
     img:
-        "assets/gym.png",
+        "assets/leads.png",
         img_alt:"imagem fundo aplicação",
-        git:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/"
-},
-{
-  id: 7,
-  title: "Leads React Spring",
-  legenda: "React JS + SCSS + HTML",
-  img:
-      "assets/leads.png",
-      img_alt:"imagem fundo aplicação",
-  git:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/"
+    view:"h/",
+    git:"https://github.com/andre-bandeli/springboot-api-crud-java-react"
 },
   ];
   
@@ -152,10 +162,11 @@ export const java = [
   {
     id: 2,
     title: "Maintenance Manager",
-    legenda: "React JS + SCSS + HTML",
+    legenda: "Java + Spring Boot + Bootstrap",
     img:"assets/projeto-1.png",
-    img_alt:"imagem fundo aplicação",
-    git:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/",
+    img_alt:"imagem fundo gestor de manutenção",
+    view:"/",
+    git:"https://github.com/andre-bandeli/maintenance-manager-REST-spring-boot",
 },
 {
   id: 4,
@@ -167,30 +178,33 @@ export const java = [
     git:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/"
 },
 {
-  id: 4,
+  id: 9,
   title: "Microsservices Java",
   legenda: "Java 11 + Spring Boot + Docker",
   img:
     "assets/linux.jpg",
     img_alt:"imagem fundo aplicação",
+    view:"/",
     git:"https://github.com/andre-bandeli/microsservices-java-spring-boot"
 },
 {
-  id: 4,
+  id: 10,
   title: "CRUD Java",
   legenda: "Java 11 + Spring Boot",
   img:
     "assets/linux.jpg",
     img_alt:"imagem fundo aplicação",
+    view:"/",
     git:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/"
 },
 {
-  id: 4,
+  id: 11,
   title: "Player Music Kafka",
   legenda: "Java 11 + Docker + Kafka",
   img:
     "assets/linux.jpg",
     img_alt:"imagem fundo aplicação",
+    view:"/",
     git:"https://github.com/andre-bandeli/microsservice-java-kafka-player-music"
 },
 {
@@ -200,12 +214,22 @@ export const java = [
   img:
     "assets/linux.jpg",
     img_alt:"imagem fundo aplicação",
+    view:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/",
     git:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/"
 },
    
 ];
   
 export const python = [
+  {
+    id: 3,
+    title: "Netflix Clone + Django",
+    legenda: "Python + Django + Heroku + Bootstrap",
+    img: "assets/projeto-2.png",
+    img_alt:"imagem fundo site netflix",
+    view:"https://netflix-app-django.herokuapp.com/user",
+    git:"https://github.com/andre-bandeli/netflix-template"
+},
   {
       id: 4,
       title: "Api REST Django",

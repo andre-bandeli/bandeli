@@ -73,10 +73,11 @@ export default function Portfolio() {
                 <div className="box">
                         <h2>{d.title}</h2>
                         <h3>{d.legenda}</h3>
+                        
                         <a href={d.git} target="__blank" className='link_a' alt="botão github">github</a>
-                        <a href={d.view} target="__blank" className='link' alt="botão página online">online</a>
-                        <img src={d.img} alt={d.img_alt} />
-                        <h4>{d.texto}</h4>
+                            <a href={d.git} target="__blank" className='link_a' alt="botão github">github</a>
+                            <a href={d.view} target="__blank" className='link' alt="botão página online">online</a>
+                            <img src={d.img} alt={d.img_alt} />
                 </div>
             ))}
         </div>
