@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/andrebandeli-react-website/static/css/main.d6733dce.css",
+    "main.js": "/andrebandeli-react-website/static/js/main.0a04882d.js",
+    "static/media/foto.png": "/andrebandeli-react-website/static/media/foto.bec035dd8fb3a3efbe8b.png",
+    "static/media/react.png": "/andrebandeli-react-website/static/media/react.86c8d9eba03e29814d2a.png",
+    "static/media/tag-seo.png": "/andrebandeli-react-website/static/media/tag-seo.6e0a56ab2e1948a9d53a.png",
+    "static/media/api.png": "/andrebandeli-react-website/static/media/api.a67ddcd4a6f60e81cd71.png",
+    "static/media/chevron.png": "/andrebandeli-react-website/static/media/chevron.4f06ce4028956ef0610e.png",
+    "static/media/python.png": "/andrebandeli-react-website/static/media/python.07a98139a3638f2a224b.png",
+    "static/media/html.png": "/andrebandeli-react-website/static/media/html.ae852d213959db37ba02.png",
+    "static/media/mysql.png": "/andrebandeli-react-website/static/media/mysql.7d8d571e5629923eaf74.png",
+    "static/media/java.png": "/andrebandeli-react-website/static/media/java.b7a2f6415cec10cee413.png",
+    "static/media/wordpress.png": "/andrebandeli-react-website/static/media/wordpress.11ed091523e3152b651f.png",
+    "static/media/kafka.png": "/andrebandeli-react-website/static/media/kafka.5276cf134ca4ffd33af2.png",
+    "static/media/in-ft.png": "/andrebandeli-react-website/static/media/in-ft.39a085e37da576be7e0c.png",
+    "static/media/git-ft.png": "/andrebandeli-react-website/static/media/git-ft.719f3899960cd195eb48.png",
+    "static/media/bootstrap.png": "/andrebandeli-react-website/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/spring.png": "/andrebandeli-react-website/static/media/spring.ee26fe97f288b47ec157.png",
+    "static/media/docker.png": "/andrebandeli-react-website/static/media/docker.e0ba9d2386737b9f87c6.png",
+    "index.html": "/andrebandeli-react-website/index.html",
+    "main.d6733dce.css.map": "/andrebandeli-react-website/static/css/main.d6733dce.css.map",
+    "main.0a04882d.js.map": "/andrebandeli-react-website/static/js/main.0a04882d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6733dce.css",
+    "static/js/main.0a04882d.js"
+  ]
+}
