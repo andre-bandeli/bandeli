@@ -1,9 +1,7 @@
-@import url('http://fonts.cdnfonts.com/css/gotham');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,600&display=swap');
 
 :root {
     --main-font-color: wheat;
-    --main-font-family: 'Gotham', sans-serif ;
     --secundary-font-color: white;
     --secundary-font-familily: 'Nunito Sans', sans-serif;
 }
@@ -14,7 +12,7 @@
 
     margin-top: 0vh;
     background-position: center;
-    font-family: var(--main-font-family);
+    font-family: var(--secundary-font-familily);
 
     
     .container {

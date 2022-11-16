@@ -43,15 +43,15 @@ export default function Certificados() {
           <div className='box'>
 
             <div className="name">
-              <h1>Curso</h1> 
+              <h2>Curso</h2> 
             </div>
 
             <div className="text">
-                <h2>{d.title}</h2>
+                <h3>{d.title}</h3>
             </div>
 
             <div className="local">
-              <h1>Instituição</h1> 
+              <h2>Instituição</h2> 
             </div>
 
             <div className="text">
@@ -60,7 +60,7 @@ export default function Certificados() {
 
           </div>
         ))}
-
+          
           </ReactElasticCarousel>
 
         </div>

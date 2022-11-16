@@ -70,10 +70,9 @@ const NavLinks = () => {
                    
                    
                 </li>
-
-                <img src={linkedin} className="in" alt='ícone linkedin'></img>
-                <img src={git} className="git" alt='ícone gihub'></img>
             </ul>
+            <img src={linkedin} className="in" alt='ícone linkedin'></img>
+                <img src={git} className="git" alt='ícone gihub'></img>
 
         </div>
     );
