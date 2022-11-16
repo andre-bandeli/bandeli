@@ -1,8 +1,8 @@
 import React from 'react'
 import './produtos.scss'
-import api from './icones/api.png'
-import img_html from './icones/html.png'
-import tag_seo from './icones/tag-seo.png'
+import api from './icones/api.svg'
+import img_html from './icones/html.svg'
+import tag_seo from './icones/tag-seo.svg'
 
 export default function Produtos() {
 

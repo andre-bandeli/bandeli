@@ -1,15 +1,15 @@
 import React from 'react'
 import './ferramentas.scss'
 
-import java from './icones/java.png'
-import python from './icones/python.png'
-import wordpress from './icones/wordpress.png'
-import docker from './icones/docker.png'
-import spring from './icones/spring.png'
-import mysql from './icones/mysql.png'
-import kafka from './icones/kafka.png'
-import react from './icones/react.png'
-import bootstrap from './icones/bootstrap.png'
+import java from './icones/java.svg'
+import python from './icones/python.svg'
+import wordpress from './icones/wordpress.svg'
+import docker from './icones/docker.svg'
+import spring from './icones/spring.svg'
+import mysql from './icones/mysql.svg'
+import kafka from './icones/kafka.svg'
+import react from './icones/react.svg'
+import bootstrap from './icones/bootstrap.svg'
 
 export default function Ferramentas() {
   return (

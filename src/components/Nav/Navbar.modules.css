@@ -141,6 +141,14 @@
         
         margin-top: 0vh;
     }
+    .Navbar nav .git {
+        width: 0;
+        visibility: hidden;
+     }
+     .Navbar nav .in {
+        width: 0;
+        visibility: hidden;
+      }
     
     .btn {
         visibility: hidden;
