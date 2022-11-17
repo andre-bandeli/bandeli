@@ -8,8 +8,8 @@ export default function Produtos() {
 
   return (
     <div id='produtos'>
-         <h2>Atividades e Produtos</h2>
-        <h3>Realização de websites institucionais, components e sistemas backend, revisão e melhorias em pontuação SEO são algumas das atividades que venho realizando</h3>
+         <h2>Atividades</h2>
+        <h3>Criação de sites institucionais, components e sistemas web, revisão e melhorias em pontuação SEO são algumas das atividades que venho estudando e produzindo</h3>
         <div className="container">
             <div className="box">
 
@@ -26,7 +26,7 @@ export default function Produtos() {
             <div className="box">
 
               <img src={tag_seo} alt="ícone ilustrativo SEO" />
-              <h2>Análise de rating SEO, análise estrutural, acessiilidade e negócios</h2>
+              <h2>Análise de SEO, análise de desempenho, acessiilidade e  regra de negócios</h2>
             </div>
         </div>
 

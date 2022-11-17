@@ -22,8 +22,8 @@ const NavLinks = () => {
             $(".h1-desk").css('font-size', '25px');
             $(".Navbar").css('height', '12vh');
             $("#ul").css('margin-top', '0px');
-            $(".git").css('margin-top', '55px');
-            $(".in").css('margin-top', '55px');
+            $(".git").css('margin-top', '57px');
+            $(".in").css('margin-top', '57px');
             
         }
        

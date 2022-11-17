@@ -18,7 +18,7 @@ export default function Header() {
            <Typing>
             <Typing speed={99}/>
             <h3>
-                Desenvolvedor Web Jr 
+                Desenvolvedor Web
                 <br></br> Técnico Mecatrônico formado pelo Colégio Técnico de Campinas (Cotuca-Unicamp) 
               </h3>
             </Typing>
