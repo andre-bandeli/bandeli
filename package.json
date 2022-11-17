@@ -54,6 +54,7 @@
     ]
   },
   "devDependencies": {
+    "@types/jquery": "^3.5.14",
     "babel-runtime": "^6.26.0"
   }
 }
