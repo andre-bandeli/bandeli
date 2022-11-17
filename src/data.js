@@ -87,13 +87,13 @@ export const todos = [
     },
     {
       id: 10,
-      title: "CRUD Java",
+      title: "Spring Security",
       legenda: "Java 11 + Spring Boot",
       img:
         "assets/linux.jpg",
         img_alt:"imagem fundo aplicação",
         view:"/",
-        git:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/"
+        git:"https://github.com/andre-bandeli/Spring-Security-Login-and-Logout"
     },
     {
       id: 11,
@@ -107,13 +107,13 @@ export const todos = [
     },
     {
       id: 12,
-      title: "Leads Capture React",
-      legenda: "React JS + SCSS + HTML",
+      title: "CRUD Django",
+      legenda: "Python + Django",
       img:
         "assets/linux.jpg",
         img_alt:"imagem fundo aplicação",
         view:"/",
-        git:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/"
+        git:"https://github.com/andre-bandeli/Crud-django"
     },
   ];
   
@@ -189,13 +189,13 @@ export const java = [
 },
 {
   id: 10,
-  title: "CRUD Java",
+  title: "Spring Security",
   legenda: "Java 11 + Spring Boot",
   img:
     "assets/linux.jpg",
     img_alt:"imagem fundo aplicação",
     view:"/",
-    git:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/"
+    git:"https://github.com/andre-bandeli/Spring-Security-Login-and-Logout"
 },
 {
   id: 11,
@@ -249,6 +249,16 @@ export const python = [
         img_alt:"imagem fundo aplicação",
     view:"https://guia-virtual.herokuapp.com/",
     git:"https://github.com/andre-bandeli/guia-virtual-de-atendimento-a-mulheres-vitmas-de-violencia"
+  },
+  {
+    id: 12,
+    title: "CRUD Django",
+    legenda: "Python + Django",
+    img:
+      "assets/linux.jpg",
+      img_alt:"imagem fundo aplicação",
+      view:"/",
+      git:"https://github.com/andre-bandeli/Crud-django"
   },
    
 ];
