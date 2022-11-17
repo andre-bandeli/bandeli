@@ -26,7 +26,7 @@ export default function Produtos() {
             <div className="box">
 
               <img src={tag_seo} alt="ícone ilustrativo SEO" />
-              <h2>Análise de SEO, análise de desempenho, acessiilidade e  regra de negócios</h2>
+              <h2>Análise de SEO, análise de desempenho, acessiilidade e B2B</h2>
             </div>
         </div>
 
