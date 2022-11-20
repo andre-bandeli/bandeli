@@ -3,9 +3,6 @@ import './portfolio.scss'
 import { useEffect, useState } from "react";
 import PortfolioList from "./PortfolioList";
 
-import image from './hamburgueria.svg'
-
-
 import {
     todos,
     reactjs,
