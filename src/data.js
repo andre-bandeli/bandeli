@@ -169,15 +169,6 @@ export const java = [
     git:"https://github.com/andre-bandeli/maintenance-manager-REST-spring-boot",
 },
 {
-  id: 4,
-  title: "Leads Capture React",
-  legenda: "React JS + SCSS + HTML",
-  img:
-    "assets/webrest.svg",
-    img_alt:"imagem fundo aplicação",
-    git:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/"
-},
-{
   id: 9,
   title: "Microsservices Java",
   legenda: "Java 11 + Spring Boot + Docker",

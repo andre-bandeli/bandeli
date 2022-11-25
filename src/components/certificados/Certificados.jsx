@@ -33,7 +33,7 @@ export default function Certificados() {
   return (
     <div id='certificados'>
         <h2>Cursos e Certificações</h2>
-        <h3>Aqui estão reunidos alguns dos meus projetos. Para ver todos, acesse minha página no github</h3>
+        <h3>Estes são alguns dos cursos que realizei e venho realizando recentemente</h3>
 
         <div className="container">
 
