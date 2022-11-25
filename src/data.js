@@ -169,6 +169,16 @@ export const java = [
     git:"https://github.com/andre-bandeli/maintenance-manager-REST-spring-boot",
 },
 {
+  id: 7,
+  title: "Leads React Spring",
+  legenda: "Spring Boot + React JS + SCSS",
+  img:
+      "assets/leads.svg",
+      img_alt:"imagem fundo aplicação",
+  view:"h/",
+  git:"https://github.com/andre-bandeli/springboot-api-crud-java-react"
+},
+{
   id: 9,
   title: "Microsservices Java",
   legenda: "Java 11 + Spring Boot + Docker",
@@ -197,16 +207,6 @@ export const java = [
     img_alt:"imagem fundo aplicação",
     view:"/",
     git:"https://github.com/andre-bandeli/microsservice-java-kafka-player-music"
-},
-{
-  id: 4,
-  title: "Leads Capture React",
-  legenda: "React JS + SCSS + HTML",
-  img:
-    "assets/linux.jpg",
-    img_alt:"imagem fundo aplicação",
-    view:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/",
-    git:"https://andre-bandeli.github.io/UI-Design-Landing-Page-Odonto-Clean/"
 },
    
 ];

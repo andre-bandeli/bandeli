@@ -16,7 +16,7 @@ export default function Ferramentas() {
     <div id='ferramentas'>
 
         <h2>Stacks de Atuação</h2>
-        <h3>Aqui estão reunidos alguns dos meus projetos. Para ver todos, acesse minha página no github</h3>
+        <h3>Essas são algumas das principais stacks nas quais eu venho realizando projetos e estudando.</h3>
 
         <div className="container">
             <div className="box">
