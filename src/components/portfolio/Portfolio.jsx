@@ -55,7 +55,8 @@ export default function Portfolio() {
   return (
     <div id='portfolio'>
         <h2>Projetos</h2>
-        <h3>Aqui estão reunidos alguns de meus principais projetos. Para ver todos, acesse meu github.</h3>
+        <h3>Aqui estão reunidos alguns de meus principais projetos. Nesse tempo, tenho produzido páginas web e componentes de software utilizando React, Spring Boot e Django.
+             Para ver todos, acesse meu github.</h3>
 
         <ul>
             {list.map((item) => (
@@ -73,8 +74,6 @@ export default function Portfolio() {
                 <div className="box">
                         <h2>{d.title}</h2>
                         <h3>{d.legenda}</h3>
-                        
-                        <a href={d.git} target="__blank" className='link_a' alt="botão github">github</a>
                             <a href={d.git} target="__blank" className='link_a' alt="botão github">github</a>
                             <a href={d.view} target="__blank" className='link' alt="botão página online">online</a>
                             <img src={d.img} alt={d.img_alt} />
