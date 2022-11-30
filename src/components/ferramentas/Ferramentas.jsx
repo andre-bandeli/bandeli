@@ -16,7 +16,7 @@ export default function Ferramentas() {
     <div id='ferramentas'>
 
         <h2>Stacks de Atuação</h2>
-        <h3>Essas são algumas das principais stacks nas quais eu venho realizando projetos e estudando.</h3>
+        <h3>Meu foco daqui para fente é voltado principalmente para o desenvolvimento backend de aplicações web em ambientes Java utilizando Spring Boot, mas venho atuando com as seguintes ferramentas</h3>
 
         <div className="container">
             <div className="box">
