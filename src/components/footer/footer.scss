@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,600&display=swap');
-@import url('http://fonts.cdnfonts.com/css/gotham');
-
 
 .footer {
 
@@ -21,7 +19,7 @@
             margin: 0;
 
             h3 {
-                font-family: 'Gotham', sans-serif;
+                font-family: 'Nunito', sans-serif;
                 color: #daa520d8 ;
             }
 
@@ -40,7 +38,7 @@
                 color: #daa520d8 ;
                 font-weight: 100;
                 font-size: 1em;
-                font-family: 'Gotham', sans-serif;
+                font-family: 'Nunito', sans-serif;
             }
         }
     }

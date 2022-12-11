@@ -1,9 +1,7 @@
-@import url('http://fonts.cdnfonts.com/css/gotham');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,600&display=swap');
 
 :root {
     --main-font-color: whitesmoke;
-    --main-font-family: 'Gotham', sans-serif ;
     --secundary-font-color: white;
     --secundary-font-color-form: rgba(245, 222, 179, 0.662);
     --secundary-font-color-yellow: #daa520d8 ;
@@ -156,7 +154,7 @@
             .foto {
                 width: 330px;
                 height: 330px;
-                background-image: url(./foto.png);
+                background-image: url(./foto.svg);
                 background-size: cover;
                 margin: auto;
                 border-radius: 50%;

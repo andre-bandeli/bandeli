@@ -20,9 +20,10 @@ const NavLinks = () => {
         }
         else {
             $(".h1-desk").css('font-size', '25px');
+            $(".Navbar").css('height', '12vh');
             $("#ul").css('margin-top', '0px');
-            $(".git").css('margin-top', '55px');
-            $(".in").css('margin-top', '55px');
+            $(".git").css('margin-top', '57px');
+            $(".in").css('margin-top', '57px');
             
         }
        
@@ -36,43 +37,46 @@ const NavLinks = () => {
 
                 <li className='li-selector'>
                     <div className='link'>
-                        <a href="/#header"> Home</a>
+                        <a href="#header" alt="botão home"> Home</a>
                     </div>
                     
                 </li>
                 <li>
                     <div className='link'>
-                        <a href="/#portfolio"> Projetos</a>
+                        <a href="#portfolio" alt="botão projetos"> Projetos</a>
                     </div>
                 </li>
                 <li>
                     <div className='link'>
-                        <a href="/#sobre"> Sobre</a>
+                        <a href="#sobre"  alt="botão sobre"> Sobre</a>
                     </div>
                 </li>
                 <li>
                     <div className='link'>
-                        <a href="/#certificados"> Certificados</a>
+                        <a href="#certificados"  alt="botão certificados"> Certificados</a>
                     </div>
                 </li>
                 <li>
                     <div className='link'>
-                        <a href="/#ferramentas">Stacks</a>
+                        <a href="#ferramentas"  alt="botão ferramentas">Stacks</a>
                     </div>
                 </li>
                 <li>
                     <div className='link'>
-                        <a href="/#contato">Contato</a>
+                        <a href="#contato"  alt="botão contato">Contato</a>
                     </div>
                 </li>
                 <li className="li-social">
                    
                    
                 </li>
-
-                <img src={linkedin} className="in"></img>
-                <img src={git} className="git"></img>
             </ul>
+            <a href="https://www.linkedin.com/in/andrébandeli/" target="__blank" alt="link para a página do linkedin">
+                <img src={linkedin} className="in" alt='ícone linkedin'></img>
+            </a>
+            <a href="https://github.com/andre-bandeli" target="__blank" alt="link para a página do github">
+                <img src={git} className="git" alt='ícone gihub'></img>
+                </a>
 
         </div>
     );

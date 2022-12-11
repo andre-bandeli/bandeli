@@ -48,7 +48,7 @@ export default function Contato() {
                   (e)=>setNome(e.target.value)} 
                 />
 
-                <TextField id="standard-basic" className='standard-basic' label="Seu email" variant='outlined' value={email} 
+                <TextField id="standard-basic-email" className='standard-basic' label="Seu email" variant='outlined' value={email} 
                 onChange={
                   (e)=>setEmail(e.target.value)} />
                 
@@ -58,7 +58,7 @@ export default function Contato() {
 
                 
                 
-                <Button variant='contained' className='btn' onClick={handleClick} type="submit">
+                <Button variant='contained' className='btn' onClick={handleClick} type="submit" alt="botão para enviar formulário">
                   Enviar
                 </Button>
                 

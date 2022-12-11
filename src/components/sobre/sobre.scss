@@ -1,9 +1,8 @@
-@import url('http://fonts.cdnfonts.com/css/gotham');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,600&display=swap');
 
 :root {
     --main-font-color: rgb(11, 118, 160);
-    --main-font-family: 'Gotham', sans-serif ;
+
     --secundary-font-color: rgb(245, 245, 245);
     --link-font-color: white;
     --secundary-font-color-dark: black;
@@ -65,6 +64,7 @@
                     height: 100%;
                     background-color: transparent;
                     border: 1px solid rgb(10, 10, 10);
+                    box-shadow: rgba(49, 48, 48, 0.252) 0px 7px 29px 0px;
                     cursor: pointer;
                     color: var(--link-font-color);
     

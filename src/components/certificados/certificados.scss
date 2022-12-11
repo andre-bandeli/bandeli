@@ -1,11 +1,10 @@
-@import url('http://fonts.cdnfonts.com/css/gotham');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,600&display=swap');
 
 :root {
     --main-font-color: whitesmoke;
-    --main-font-family: 'Gotham', sans-serif ;
     --secundary-font-color: white;
-    --secundary-font-color-dark: black;
+    --secundary-font-color-dark-h1: rgb(228, 222, 222);
+    --secundary-font-color-dark: white;
     --secundary-font-familily: 'Nunito Sans', sans-serif;
     --background-color-cards: rgba(27, 166, 201, 0.452);
 }
@@ -68,8 +67,8 @@
                 height: 10vh;
                 display: flex;
     
-                h1 {
-                    color: var(--secundary-font-color-dark);
+                h2 {
+                    color: var(--secundary-font-color-dark-h1);
                     text-align: center;
                     margin: auto;
                     margin-top: 3vh;
@@ -84,16 +83,7 @@
                 width: 100%;
                 height: 10vh;
 
-                h2 {
-                    font-size: 20px;
-                    color: var(--secundary-font-color-dark);
-                    text-align: center;      
-                    vertical-align: middle;       
-                    margin-left: 2vh; margin-right: 2vh;
-                    line-height: 30px;
-                    font-weight: 600;
-                    padding: 2%;
-                }
+               
                 h3 {
                     color: var(--secundary-font-color-dark);
                     text-align: center;
@@ -107,14 +97,8 @@
                     display: flex;
                     margin-top: 3vh;
 
-                    img {
-                        margin-top: 2.5vh; margin-left: 2vh;
-                        width: 40px;
-                        height: 40px;
-                    }
-
-                    h1 {
-                        color: var(--secundary-font-color-dark);
+                    h2 {
+                        color: var(--secundary-font-color-dark-h1);
                         text-align: center;
                         margin: auto;
                         margin-top: 3vh;
@@ -125,9 +109,6 @@
                         padding: 3%;
                     }
             }
-
-           
-        
         }
 
         .box:hover {

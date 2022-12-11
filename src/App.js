@@ -12,6 +12,8 @@ import Sobre from './components/sobre/Sobre';
 import Certificados from './components/certificados/Certificados'
 
 function App() {
+
+  
   return (
     <div className="App">
       <Navbar/>

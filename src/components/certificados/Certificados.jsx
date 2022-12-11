@@ -10,7 +10,7 @@ import {
 
 export default function Certificados() {
 
-  const [selected, setSelected] = useState("certificados");
+  const [selected] = useState("certificados");
   const [data, setData] = useState([]);
 
   const breakPoints = [
@@ -33,7 +33,7 @@ export default function Certificados() {
   return (
     <div id='certificados'>
         <h2>Cursos e Certificações</h2>
-        <h3>Aqui estão reunidos alguns dos meus projetos. Para ver todos, acesse minha página no github</h3>
+        <h3>Aqui estão reunidos alguns dos cursos que realizei e venho realizando, sendo eles de programação nas linguagens java e python, banco de dados, Docker, construção de aplicações REST entre outros.</h3>
 
         <div className="container">
 
@@ -43,15 +43,15 @@ export default function Certificados() {
           <div className='box'>
 
             <div className="name">
-              <h1>Curso</h1> 
+              <h2>Curso</h2> 
             </div>
 
             <div className="text">
-                <h2>{d.title}</h2>
+                <h3>{d.title}</h3>
             </div>
 
             <div className="local">
-              <h1>Instituição</h1> 
+              <h2>Instituição</h2> 
             </div>
 
             <div className="text">
@@ -60,7 +60,7 @@ export default function Certificados() {
 
           </div>
         ))}
-
+          
           </ReactElasticCarousel>
 
         </div>

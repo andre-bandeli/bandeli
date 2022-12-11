@@ -60,23 +60,23 @@
 .Navbar nav ul .li-selector {
     border-left: .2px solid rgba(255, 255, 255, 0.164);
 }
-.Navbar nav ul .git {
+.Navbar nav .git {
    width: 20px;
    position: absolute;
-   margin-top: 55px;
+   margin-top: 58px;
    margin-left: 1400px;
 }
-.Navbar nav ul .in {
+.Navbar nav .in {
     width: 20px;
     position: absolute;
-    margin-top: 55px;
+    margin-top: 58px;
     margin-left: 1440px;
  }
 
 .Navbar nav ul li a {
     text-decoration: none;
     color: rgba(245, 245, 245, 0.649);
-    color: #daa5209f;
+    color: #daa520e5;
     margin-top: 10px;
 
 }
@@ -141,6 +141,14 @@
         
         margin-top: 0vh;
     }
+    .Navbar nav .git {
+        width: 0;
+        visibility: hidden;
+     }
+     .Navbar nav .in {
+        width: 0;
+        visibility: hidden;
+      }
     
     .btn {
         visibility: hidden;
