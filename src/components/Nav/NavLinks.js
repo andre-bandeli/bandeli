@@ -71,8 +71,12 @@ const NavLinks = () => {
                    
                 </li>
             </ul>
-            <img src={linkedin} className="in" alt='ícone linkedin'></img>
+            <a href="https://www.linkedin.com/in/andrébandeli/" target="__blank" alt="link para a página do linkedin">
+                <img src={linkedin} className="in" alt='ícone linkedin'></img>
+            </a>
+            <a href="https://github.com/andre-bandeli" target="__blank" alt="link para a página do github">
                 <img src={git} className="git" alt='ícone gihub'></img>
+                </a>
 
         </div>
     );

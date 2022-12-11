@@ -27,15 +27,15 @@ export const todos = [
         git:"https://github.com/andre-bandeli/netflix-template"
     },
     {
-        id: 4,
-        title: "Api REST Django",
-        legenda: "Python + Django + Bootstrap",
-        img:
-          "assets/webrest.svg",
+      id: 4,
+      title: "Leads React Spring",
+      legenda: "Spring Boot + React JS + SCSS",
+      img:
+          "assets/leads.svg",
           img_alt:"imagem fundo aplicação",
-        view:"https://django-ouath.herokuapp.com/accounts/login/",
-        git:"https://github.com/andre-bandeli/api-rest-django"
-    },
+      view:"/",
+      git:"https://github.com/andre-bandeli/springboot-api-crud-java-react"
+  },
     {
         id: 5,
         title: "OdontoClean React",
@@ -56,15 +56,16 @@ export const todos = [
         git:"https://github.com/andre-bandeli/react-gym-website-template"
     },
     {
-        id: 7,
-        title: "Leads React Spring",
-        legenda: "Spring Boot + React JS + SCSS",
-        img:
-            "assets/leads.svg",
-            img_alt:"imagem fundo aplicação",
-        view:"h/",
-        git:"https://github.com/andre-bandeli/springboot-api-crud-java-react"
-    },
+      id: 7,
+      title: "Api REST Django",
+      legenda: "Python + Django + Bootstrap",
+      img:
+        "assets/webrest.svg",
+        img_alt:"imagem fundo aplicação",
+      view:"https://django-ouath.herokuapp.com/accounts/login/",
+      git:"https://github.com/andre-bandeli/api-rest-django"
+  },
+
     {
         id: 8,
         title: "Guia Virtual",
@@ -147,7 +148,7 @@ export const reactjs = [
       git:"https://github.com/andre-bandeli/react-gym-website-template"
   },
   {
-    id: 7,
+    id: 4,
     title: "Leads React Spring",
     legenda: "Spring Boot + React JS + SCSS",
     img:
@@ -169,7 +170,7 @@ export const java = [
     git:"https://github.com/andre-bandeli/maintenance-manager-REST-spring-boot",
 },
 {
-  id: 7,
+  id: 4,
   title: "Leads React Spring",
   legenda: "Spring Boot + React JS + SCSS",
   img:
